@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+.hpr h3{
+	width:720px;
+	height:70px;
+	line-height:70px;
+	margin:0 auto;
+	display:block;
+	border-bottom:1px solid #959595;
+	padding-left:10px;
+	font-size:30px;
+	font-weight:normal;
+	color:#333;
+	}
+

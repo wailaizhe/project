@@ -1,0 +1,36 @@
+body, ul, li, div, h1, h2{padding:0;margin:0;}
+ul{list-style:none;}
+a{text-decoration:none;}
+.clr{clear:both;overflow:hidden;height:0;}
+a.closeBtn{position:absolute;top:6px;right:25px;display:block;width:60px;padding:4px 0;text-align:center;background:#fff;border:1px solid #85B6E2;color:#333;}
+a.closeBtn:hover{color:#fff;border:1px solid #85B6E2;background:#85B6E2;}
+
+body{padding:10px 20px 200px;}
+h1{color:#85B6E2;text-align:center;padding-top:20px;}
+.blk{width:500px;position:relative;height:650px;}
+
+
+/**/
+* html .popup_iframe{
+	width:expression(this.previousSibling.style.width);
+	height:expression(this.previousSibling.style.height);
+}
+
+.yx_tan{width:480px;height:510px;background-color:#f3f3f3;}
+.yx_top{height:40px;background-color:#3571ba;line-height:40px;font-size:16px;color:#fff;padding-left:10px;}
+.yx_top .yx_icon{display:inline-block;width:25px;height:25px;background:url(../images/11_v2.png) no-repeat;vertical-align:middle;padding-left:5px;}
+.yx_top .close{display:inline-block;width:25px;height:25px;vertical-align:middle;background:url(../images/22_v2.png) no-repeat;margin-left:300px;}
+.tan_main ul li{font-size:14px;color:#666;display:block;}
+.tan_main .five{margin:35px 0 0 70px;}
+.tan_main .seven{margin:23px 0 0 42px;}
+.tan_main .four{margin:20px 0 0 84px;}
+.tan_main .three{margin:20px 0 0 99px;}
+.tan_main ul li input{background:none;border:0;width:230px;height:35px;border:1px solid #dedede;background-color:#fff;padding-left:10px;color:#ccc;font-size:14px;}
+.tan_main ul li select{background:none;border:0;width:244px;height:35px;border:1px solid #dedede;background-color:#fff;padding-left:10px;}
+.tan_main p{text-align:center;font-size:14px;color:#ff0000;display:block;width:410px;height:30px;line-height:30px;background-color:#fff1dd;border:1px solid #fae1bd;margin:20px auto;}
+.tan_main p .imp{display:inline-block;width:16px;height:16px;vertical-align:middle;background:url(../images/account_img_11.png) no-repeat;}
+.tan_main .tan_btn{width:140px;height:35px;margin:0 auto;text-align:center;line-height:35px;background-color:#ff9600;}
+.tan_main .tan_btn a{font-size:14px;color:#fff;display:block;}
+
+
+

@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*我要借款一级页面*/
+a{text-decoration:none;cursor:pointer;}
+.jk{width:100%;height:auto;background:url(../images/banner_inner.jpg) repeat-y;padding:20px 0;}
+.jk_main{width:1024px;height:auto;margin:0 auto;overflow:hidden;}
+.jk_left,.jk_right{width:480px;height:450px;border:1px solid #2ea7e0;background-color:#fff;position:relative;}
+.jk_left{float:left;}
+.jk_main p{display:block;font-size:16px;color:#757575;width:440px;margin:50px auto 0;text-indent:2em;line-height:30px;}
+.jk_main .sq_btn{width:290px;height:50px;background-color:#2ea7e0;border-radius:5px;text-align:center;line-height:50px;position:absolute;left:50%;margin-left:-145px;bottom:20px;}
+.jk_main .sq_btn:hover{background-color:#1c87ca;}
+.jk_main .sq_btn a{font-size:20px;color:#fff;display:block;}
+.jk_right{float:right;}
+
+/*我要借款申请完成页面*/
+.jk_apply h2{text-align:center;font-size:18px;color:#666;font-weight:normal;padding:80px 0 40px;}
+.jk_apply{width:1024px;height:auto;margin:0 auto;background-color:#fff;padding-bottom:80px;}
+.apply_main{margin-left:145px;width:699px;}
+.apply_main p{font-size:14px;color:#666;line-height:30px;}
+.apply_main p a{color:#0066ff;}
+

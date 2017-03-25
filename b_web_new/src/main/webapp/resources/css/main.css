@@ -1,0 +1,526 @@
+.container .ui-content{margin-bottom:20px;}
+.module{position:relative;}
+.module .mainBar{}
+.module .sideBar{width:300px;position:absolute;right:0;top:0;}
+.mod-title .ui-tips i,.confirm-clock i,.confirm-service .ui-service-tel i{ background:url(../images/header.png);background-position:-999px 0;background-repeat:no-repeat;}
+.ui-button-lorange input,.confirm-service .ui-service-online a,.confirmation input,.tips-correct-info{background-position:-999px 0;background-repeat:no-repeat;}
+
+/****添加银行卡弹窗****/
+.calculator-btn{margin:30px 0 20px 0px;}
+.calculator-btn input{padding:0 20px;height:48px;line-height:48px;color:#fff;border:none;background:#f6ab00;font-size:18px;font-family:"Microsoft YaHei";margin:0 10px 0 0;border-radius:3px; cursor:pointer; text-align:center;}
+.calculator-btn input.reset{background:#dadada;color:#999;}
+.calculator-btn input.submit{background:#fa552f;}
+.calculator-btn input.submit:hover{background:#fa552f;}
+
+
+.searchSelet2{height:26px;line-height:26px;position:relative; background:#fff; z-index:9; border:1px solid #d7d6d6;}
+.searchSelet2 .LB{float:left; width:270px; height:auto; padding:0 10px;background:url(../images/account_img_42.png) right center no-repeat;color:#666; font-size:12px;}
+.searchSelet2 .txtList{position:absolute;left:-1px; top:26px; background:#FFF; border:1px solid #dadada; z-index:200; width:288px; display:none; }
+.searchSelet2 .txtList div.kk{ position:relative; width:288px; height:180px; overflow:hidden; }
+.searchSelet2 .txtList div.kk b{ display:block; height:40px;}
+.searchSelet2 .txtList div.kk div.a-list{ width:288px; height:140px; position:absolute; top:0px; overflow-y:auto; overflow-x:auto; z-index:99; }
+.searchSelet2 .txtList  a{display:block;line-height:20px;text-align:left;clear:both; color:#666; padding:2px 10px;}
+.searchSelet2 .txtList div.kk div.a-list a{ width:500px;}
+.searchSelet2 .txtList a:hover{background:#ff8b24;color:#fff;}
+.searchSelet2 .txtList div.kk div.a-list span.a-list-k{ display:block; width:auto; height:auto; background:url(../images/empt.png) 50px 15px no-repeat; padding:20px 10px 20px 120px; line-height:40px;}
+.searchSelet2 .txt{height:26px;line-height:26px; overflow:hidden;}
+.searchSelet2 .txtList div.kk div.search-01{ width:288px; height:40px; overflow:hidden; background-color:#f0f0f0; position:absolute; left:0px; bottom:0px; z-index:98;}
+.searchSelet2 .txtList div.kk div.search-01 div{ width:275px; height:50px;  border:1px solid #e3e3e3; margin:5px;  background-color:#f6ab00;}
+.searchSelet2 .txtList div.kk div.search-01 div input{ border:0px; background:none;}
+.searchSelet2 .txtList div.kk div.search-01 div input.input-1{ width:230px; height:28px;line-height:28px; overflow:hidden; text-indent:10px; color:#999; font-size:12px; float:left;}
+.searchSelet2 .txtList div.kk div.search-01 div input.input-2{ width:45px; height:28px; overflow:hidden; float:left;background:url(../images/icon_search.jpg) center center no-repeat;}
+
+
+/****项目列表****/
+.mouseTips{position:absolute;background-color:#fdfae2; border-color: rgb(250, 180, 24);display: none;box-shadow:2px 2px 2px #bbb;border:1px solid #FAB418;color:#666;border-radius:5px;padding:5px;}
+.project-box{overflow:hidden;position:relative;}
+.project-box .mod-wrap{width:960px;margin:0 auto;position:relative}
+.project-box .ui-search-tab{height:54px; width:100%;background:#fff3e4;}
+.project-box .ui-search-tab ul{padding:0 0 0 20px;}
+.project-box .ui-search-tab ul li{float:left;font-size:18px;height:54px;line-height:54px;}
+.project-box .ui-search-tab ul li a{color:#f6ab00; display:block;font-weight:700}
+.project-box .ui-calculator{ position:absolute;right:100px;top:15px; z-index:1;background-position:4px -249px; cursor:pointer;padding:0 0 0 30px;height:26px;line-height:26px;color:#06f;}
+.project-box .ui-help{ position:absolute;right:18px;top:20px; z-index:1;cursor:pointer; text-decoration:none; color:#000; text-decoration:underline}
+.project-box .ui-help:hover{ color:#f6ab00}
+.project-text{overflow:hidden;position:relative}
+.ui-search-item{margin:0 20px;height:48px;font-size:13px;color:#666; clear:both; position:relative;border-bottom:dashed 1px #ddd;}
+.ui-search-item .ui-icon{ display:block; text-align:right;width:120px;float:left;height:48px;line-height:48px;}
+.ui-search-item .ui-search-tag{float:left;position:relative;height:48px;}
+.project-item .inner{color:#666;margin:0 0 16px 0;position:relative;overflow:hidden;border-bottom:solid 1px #ddd;margin:0 10px;}
+.project-item .inner h3{font-size:14px;height:24px;position:relative;white-space:nowrap; text-align:center;}
+.project-item .inner h3 a{color:#666;font-weight:400;}
+.project-item .inner .pro-rate{font-size:24px; font-family:Tahoma, Geneva, sans-serif;color:#d6313a; margin-right:15px; text-align:center;}
+.project-item .pro-button{background:#ff9928;height:32px;overflow:hidden;color:#fff;font-size:14px; position:relative;margin:0 18px;border-radius:2px;}
+.project-item .pro-button a{font-weight:400; position:absolute;left:0;top:0; text-align:center;line-height:32px;width:100%;height:32px;color:#fff;}
+.project-item .pro-button a:hover{background:#ff7612}
+.project-item .pro-button-ok{background:#bcbcbc;}
+.project-item .pro-button-ok a:hover{background:#bcbcbc}
+.project-item .pro-button-100{background:#d90000;}
+.project-item .pro-button-100 a:hover{background:#d90000;}
+.project-item .pro-button-hotting a{background:#5ca6d9; text-align:center;}
+.project-item .pro-button-hotting a:hover{background:#6bbaf1;}
+
+
+.seccess-img{height:53px;position: absolute;right:160px;top: 27px;width:91px;z-index: 100;}
+
+.ui-search{background:#fff;border:solid 1px #e9e9e9;border-radius:5px;}
+
+.ui-search-item .ui-search-tag ul{margin:13px 0 0 0; position:relative; z-index:2;color:#fff;}
+.ui-search-item .ui-search-tag ul li{float:left;height:23px;line-height:25px;}
+.ui-search-item .ui-search-tag ul li a{display:block;height:23px;padding:0 20px;}
+.ui-search-item .ui-search-tag ul li.current a{color:#fff;}
+.ui-search-item .text-bg-select{background:url(../images/s_select_bg_14.png) top right repeat-x;height:25px; position:absolute;left:0;top:13px;z-index:1;width:66px;}
+.ui-search-item .text-bg-select span{width:14px;height:25px;float:left; display:block;background:url(../images/s_select_bg_12.png) no-repeat;}
+
+
+/****投标流程****/
+.mod-bid-box{border-radius:3px;background:#FFF;border:1px solid #e9e9e9;padding:0 0 10px 0;}
+.mod-bid-box .mod-object-title{padding:20px;}
+.mod-bid-box .mod-title{border-bottom:2px solid #f6f6f6; background-color:#eee; border-left:4px solid #E30003;}
+.mod-bid-box .mod-title span{float:left;height:50px;position:relative;bottom:-9px;line-height:28px;padding:0 30px;color:#5b5148;font-weight:400;}
+.mod-title .ui-tips{font-weight:normal; font-size:14px; line-height:28px;background:#fff5e8;border:solid 1px #ffc6a3;height:28px;display:inline-block;float:left;margin:8px 0 0 0;padding:0 10px; position:relative;color:#ea7711;}
+.mod-title .ui-tips img{ position:absolute;left:-5px;top:10px;}
+.mod-title .ui-tips i{ background-position:-199px -250px;width:18px;height:16px; display:block;float:left;margin:6px 5px 0 0;}
+.mod-bid-box .mod-content{padding:15px 40px;font-size:14px;color:#666;}
+.mod-bottom{padding:24px 0;font-weight:normal; font-size:14px; line-height:24px;color:#666;border-top:1px dashed #cdcdcd;}
+.mod-bottom .info-agm{padding:0 40px;}
+.mod-bottom .info-agm p{margin-bottom:10px; overflow:hidden;}
+.mod-bottom .info-agm span a { color:#008CFF;}
+.mod-bottom .submit-btn{padding:30px 40px;}
+.mod-bottom .submit-btn a{ text-align:center;line-height:50px;}
+.mod-bottom .submit-btn a:hover{color:#fff;}
+.mod-bottom .other-info{border-top:1px dashed #cdcdcd;padding:30px 40px 0 }
+
+.mod-project-inner{margin:20px 0 0 0;background:#fff;border:solid 1px #e9e9e9;border-radius:5px;zoom:1}
+.mod-project-inner .mod-title{font-weight:700;padding-left:10px;margin-bottom:20px;border-bottom:2px solid #f6ab00;color:#f6ab00}
+
+.ui-table-3{width:100%;}
+.ui-table-3 th,.ui-table-3 td{background:#fffbf6;border-bottom:1px solid #FFF;border-right:1px
+ solid #FFF;padding:8px 0 8px 5px;font-size:14px;}
+.ui-table-3 th{background:#fff9f1;text-align:right}
+
+.ui-table-4{width:100%;}
+.ui-table-4 td,.ui-table-4 th{padding:10px;font-size:16px;color:#7878}
+.ui-table-4 td p{line-height:24px;}
+.ui-table-4 td img{vertical-align:middle;}
+.ui-table-4 th{text-align:right}
+.ui-table-5{width:100%}
+.ui-table-8{width:100%;color:#666;font-size:14px;}
+.ui-table-8 th{font-weight:400;color:#333;font-weight:700}
+
+.ui-table-5{width:100%;margin-bottom:15px;}
+.ui-table-5 td,.ui-table-5 th{padding:10px 0;text-align:center;color:#666}
+.ui-table-5 td p{display:inline;}
+.ui-table-5 th{background:#fbe8d1;font-weight:400}
+.ui-table-6{width:100%;border-top:1px solid #e2d7c9;border-right:1px solid #e2d7c9;}
+.ui-table-6 td{padding:10px;color:#666;background:#fff9f1;border-bottom:1px solid #e2d7c9;border-left:1px solid #e2d7c9;}
+.ui-table-7{width:100%;}
+.ui-table-7 td,.ui-table-7 th{padding:8px 3px; font-weight:normal; font-size:14px; line-height:20px;}
+.ui-table-7 .obj-title{font-size:24px;font-family:"Microsoft YaHei";margin:0 0 20px 0}
+.ui-table-7 .text-zd{margin-top:8px;}
+
+
+
+.bank-logo {background-image: url("../images/bank.png");background-position: -999px 0;background-repeat: no-repeat;}
+.bank-cmb{background-position:0 -893px;}/*招商银行*/
+.bank-icbc{background-position:0 0;}/*工商银行*/
+.bank-ccb{background-position:0 -67px;}/*建设银行*/
+.bank-abc{background-position:0 -99px;}/*农业银行*/
+.bank-boc{background-position:0 -132px;}/*中国银行*/
+.bank-comm{background-position:0 -330px;}/*交通银行*/
+.bank-pingan{background-position:0 -463px;}/*平安银行*/
+.bank-psbc{background-position:0 -493px;}/*邮政银行*/
+.bank-shbc{background-position:0 -530px;}/*上海银行*/
+.bank-wzbc{background-position:0 -564px;}/*温州银行*/
+.bank-spdb{background-position:0 -166px;}/*浦发银行*/
+.bank-ecitic{background-position:0 -398px;}/*中信银行*/
+.bank-cgbchina{background-position:0 -430px;}/*广发银行*/
+.bank-hxb{background-position:0 -600px;}/*华夏银行*/
+.bank-cmbc{background-position:0 -362px;}/*民生银行*/
+.bank-cib{background-position:0 -230px;}/*兴业银行*/
+.bank-cebbank{background-position:0 -296px;}/*光大银行*/
+.bank-srcb{background-position:0 -640px;}/*上海农商银行*/
+.bank-bankofbeijing{background-position:0 -265px;}/*北京银行*/
+.bank-bjrcb{background-position:0 -680px;}/*北京农商银行*/
+.bank-hebbank{background-position:-5px -640px;}/*河北银行*/
+.bank-hsbank{background-position:-5px -1076px;}/*徽商银行*/
+.bank-qdccb{ background-position:0px -1019px;}/*青岛银行*/
+.bank-crbank{ background-position:0px -1066px;}/*华润*/
+
+.no-content{margin:0 auto;border-radius:8px; background:#fff url(../images/no_content_ts.gif) center center no-repeat;height:320px; overflow:hidden;}
+.no-content p{font-size:18px;margin:255px 0 0 0;text-align:center}
+
+.ts {
+    color: #666666;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 20px;
+    text-align: center;
+}
+
+/***支付完成***/
+.pay-oktable{font-size:14px;width:450px; margin:10px auto;padding:10px 0;}
+.pay-ok-text,.share-box{padding:12px 0 30px 260px;font-size:12px;color:#666;line-height:35px;}
+.pay-ok-text a{line-height:29px;min-width:110px;color:#fff;background:#f6ab00;margin:0 14px 0 0;float:left; text-align:center;border-radius:2px;}
+.pay-ok-text a:hover{background:#dc432a;}
+.pay-ok-text a.pay-ok-bgblue{background:#c1c1c1;color:#656565}
+.pay-ok-text a.pay-ok-bgblue:hover{background:#F90;color:#FFF}
+.pay-ok .tips{width:450px;margin:0 auto;line-height:12px;background:url(../images/account_img_67.png) 8px center no-repeat;text-indent:30px;white-space:nowrap;border:1px  dashed #ede1a7;height:30px;line-height:30px;}
+.pay-error{width:230px;margin:40px auto 30px auto;padding:10px 20px;background:#ebebeb;color:#666;}
+
+.pay-ok{border:solid 1px #ececec;background:#fff;margin:50px 0;padding:60px 65px; position:relative;}
+.pay-ok h3{font-size:36px;color:#666; text-align:center;}
+.pay-ok h3 em{font-style:normal;font-size:21px;}
+.pay-ok h3 img{vertical-align:middle;margin:0 15px 0 0;}
+.pay-oktable{font-family:"simsun";font-size:14px;width:420px; margin:30px auto;padding:10px 0;}
+.pay-line{border-bottom:dashed 1px #cbcbcb;}
+.pay-ok-textcenter{margin:0 0 30px 340px;font-family:"simsun";font-size:12px;color:#666;line-height:30px; background:url(../images/sucess_tt.png) no-repeat; padding-left:45px;}
+.pay-lose-textcenter{margin:10px 0 5px 385px;font-family:"simsun";font-size:12px;color:#666;line-height:30px;}
+.pay-lose-textcenter p{line-height:20px;}
+.pay-lose-textcenter a{color:#28a7e1;}
+.pay-ok-bgblue{padding-left:72px;}
+.pay-ok-textcenter .check,.pay-lose-textcenter .check{line-height:30px;}
+.pro-sucess_btn { margin:0 0 0 340px; height:60px;}
+.pro-sucess_btn a {line-height:46px;min-width:210px;margin:0 14px 0 0;float:left; text-align:center;border-radius:2px; color:#09F; font-size:18px;}
+.pro-sucess_btn .sucess_btn { background:#ffd101; color:#936c17}
+.pro-sucess_btn .sucess_btn:hover{ color:#CF920D;}
+.pro-sucess_btn a:hover{ color:#06F;}
+.pay-ok-textcenter a.pay-ok-bgblue{background:#c1c1c1;}
+.pay-ok-textcenter a.pay-ok-bgblue:hover{background:#939393;}
+.pay-ok-exit { margin:0px 0 30px 385px;font-family:"simsun";font-size:12px;color:#666;line-height:45px;}
+.pay-ok-exit a { color:#007CE3;}
+.pay-ok-exit a:hover { text-decoration:underline;}
+.pro-sucess { background:url(../images/pro_suceess.png)  no-repeat; width:194px; height:194px; position:absolute; top:105px; right:45px;}
+
+.form-box{padding:10px;border:1px solid #e9e9e9;border-radius:3px;background:#FFF;}
+.form-box .title{text-align:center;font-size:16px;color:#dc8f3c;margin-bottom:10px;font-weight:700;}
+
+.map-con{background:url(../images/map_bg_04.gif) repeat-x;}
+.map-box{background:url(../images/map_bg_02.gif) center top no-repeat;min-height:500px; overflow:hidden;}
+.map-list-box{width:900px;margin:0 auto 50px auto;background:#fff url(../images/map_bg_03.gif) bottom right no-repeat;border:solid 1px #e9e9e9;border-radius:3px;padding:0 38px 80px 38px; overflow:hidden;}
+.map-list-box h3{border-bottom:dashed 1px #e5e5e5;background:url(../images/map_img1.png) 0 5px no-repeat;padding:0 45px;line-height:65px;font-size:24px;color:#706058;margin:10px 0 40px 0;}
+.map-list-box dl{float:left;width:220px;margin:0 18px 40px 0;padding:8px 0 0 55px;min-height:80px;}
+.map-list-box dl dt{font-size:18px;color:#706058;margin:0 0 5px 0;}
+.map-list-box dl dd{font-size:14px; overflow:hidden;}
+.map-list-box dl dd a{color:#706058;margin:0 12px 0 0;line-height:30px;word-wrap:break-word;word-break:normal; display:block;float:left;}
+.map-list-box dl dd a:hover{color:#f6a21c;}
+.map-list-box dl.map-list-1{ background-position:-765px -478px;}
+.map-list-box dl.map-list-2{ background-position:-756px -353px;}
+.map-list-box dl.map-list-3{ background-position:-766px -235px;}
+.map-list-box dl.map-list-4{ background-position:-765px -126px;}
+.map-list-box dl.map-list-5{ background-position:-764px -1px;}
+
+.searchSelet2{height:35px; width:295px; line-height:35px;margin:2px; position:relative; background:#fff; z-index:9; border:1px solid #d2d2d2; float:left;}
+.searchSelet2 .LB{float:left; width:275px; height:auto; padding:0 10px;background:url(../images/account_img_42.png) right center no-repeat;color:#666;  font-size:12px;}
+.searchSelet2 .txtList{position:absolute;left:-1px; top:35px; background:#FFF; border:1px solid #a9d3ef; z-index:200; width:295px; height:140px; display:none; }
+.searchSelet2 .txtList div.kk{ position:relative; width:295px; height:140px; overflow:hidden; }
+.searchSelet2 .txtList div.kk b{ display:block; height:40px;}
+.searchSelet2 .txtList div.kk div.a-list{ width:295px; height:100px; position:absolute; top:0px; overflow-y:auto; overflow-x:auto; z-index:99; }
+.searchSelet2 .txtList div.kk div.a-list a{ width:500px;display:block;line-height:20px;text-align:left;clear:both; color:#666; padding:2px 10px;}
+.searchSelet2 .txtList div.kk div.a-list a:hover{background:#3571ba;color:#fff;}
+.searchSelet2 .txtList div.kk div.a-list span.a-list-k{ display:block; width:auto; height:auto; background:url(../images/empt.png) 50px 15px no-repeat; padding:20px 10px 20px 120px; line-height:40px;}
+.searchSelet2 .txt{height:35px;line-height:35px; overflow:hidden;}
+.searchSelet2 .txtList div.kk div.search-01{ width:295px; height:40px; overflow:hidden; background-color:#f0f0f0; position:absolute; left:0px; bottom:0px; z-index:98;}
+.searchSelet2 .txtList div.kk div.search-01 div{ width:282px; height:28px;  border:1px solid #e3e3e3; margin:5px;background-color:#fff;}
+.searchSelet2 .txtList div.kk div.search-01 div input{ border:0px; background:none;}
+.searchSelet2 .txtList div.kk div.search-01 div input.input-1{ width:235px; height:26px; overflow:hidden; text-indent:10px; color:#999; font-size:12px; float:left;}
+.searchSelet2 .txtList div.kk div.search-01 div input.input-2{ width:45px; height:26px; overflow:hidden; float:left; cursor:pointer;}
+
+.opinion-con{font-size:14px;padding:18px 24px;}
+.opinion-con p{margin:0 0 15px 0;}
+.opinion-con textarea{border:solid 1px #e2e2e2;border-radius:3px;font-size:14px;color:#999;line-height:24px;width:96%;padding:5px 10px;resize:none;margin:0 0 15px 0;height:140px; overflow:auto}
+.opinion-con input{height:28px;line-height:28px;padding:0 5px;border-radius:2px;border:solid 1px #c2c2c2;color:#666;}
+
+.ui-table-8{width:100%;font-size:14px;font-family:"Microsoft YaHei";}
+.ui-table-8 th{padding:0 4px;color:#666;font-weight:400}
+.ui-table-8 td{padding:10px 4px;color:#8c8c8c}
+.ui-table-8 .text-zd{margin-top:5px;}
+
+
+/*确认支付--青岛银行*/
+.ui-table-2{}
+.ui-table-2 th{border-bottom:dashed 1px #d8d8d8;}
+.ui-table-2 th span{font-size:12px;font-family:"simsun";font-weight:400;color:#999;}
+.ui-table-2 td{border-bottom:dashed 1px #d8d8d8;}
+.ui-table-2 td p.red{font-size:24px; font-family:Verdana, Geneva, sans-serif;}
+.ui-table-2 td p.red b{font-weight:400;}
+.ui-table-2 td .fillIn-input{width:100px; position:relative;margin:0 auto;}
+.ui-table-2 td .fillIn-input input{width:45px;border:solid 1px #a7a6ac;height:30px;padding:0 5px;box-shadow:1px 1px 1px #c2c2c2 inset; text-align:right;font-size:24px;}
+.ui-table-2 td .fillIn-input a{width:18px;height:14px;display:block;position:absolute;}
+.ui-table-2 td .fillIn-input a.add{background-position:-337px -302px;left:60px;top:0;}
+.ui-table-2 td .fillIn-input a.add:hover{background-position:-358px -302px;}
+.ui-table-2 td .fillIn-input a.del{background-position:-337px -319px;left:60px;top:18px;}
+.ui-table-2 td .fillIn-input a.del:hover{background-position:-358px -319px;}
+.ui-table-1{border-left:solid 1px #d7d7d7;border-top:solid 1px #d7d7d7;margin:25px 0 0 0;}
+.ui-table-1 th{border-right:solid 1px #d7d7d7;border-bottom:solid 1px #d7d7d7;background:#eff5fb;}
+.ui-table-1 td{border-right:solid 1px #d7d7d7;border-bottom:solid 1px #d7d7d7;}
+.ui-form-other-note{border-top:dashed 1px #ccc;padding:20px 0 0 0;margin:30px 0 20px 0 ;font-family:"simsun";}
+.ui-form-other-note p{font-size:14px;line-height:24px;color:#666;}
+.ui-form-other-fg{font-family:"simsun";margin:0 0 20px 0;}
+.ui-form-other-fg input[type="checkbox"]{float:left;margin:3px 10px 0 0;}
+.ui-button-lorange input.ui-button-2{ background-position:0 -461px;border:none;color:#fff;font-size:16px;width:182px;height:50px;font-family:"Microsoft YaHei";float:left;margin:15px 0 0 0;}
+.ui-button-lorange input.ui-button-2:hover{ background-position:0 -511px; cursor:pointer;}
+.ui-form-item .link-login{float:left;margin:35px 0 0 20px;}
+.confirm_bank{margin-right:370px}
+.confirm_bank_text{line-height:24px;margin:40px 0 50px 0;font-size:12px;}
+.confirm_bank .title-pay{height:32px;line-height:32px;font-size:14px;color:#FF1100;font-weight:700;padding-right:0;}
+.confirm_bank .button-pay{height:34px;line-height:34px;background:url(../images/btn_01.png) 0 top repeat-x;color:#FFF;font-weight:700;font-size:16px;padding:0 20px;border:0px;border-radius:6px; cursor:pointer}
+.confirm_bank .button-pay:hover{ background-position:left bottom;}
+.bank-info{margin:30px 0 20px 0;color:#666;font-size:12px;}
+.bank-info h3{font-size:14px;font-weight:400;} 
+.bank-info table{border:solid 1px #f0e1c8;background:#fffaf4;margin:10px 0 0 0;width:97%;}
+.bank-info table th{background:#fef2e0;padding:0 5px;color:#a6752c;}
+.bank-info table td{padding:0 5px;}
+
+.electronic-bank{ position:relative; padding-right:180px; display:table;}
+.electronic-bank ul{ overflow:hidden;max-width:800px;}
+.electronic-bank ul li{float:left;margin:0 20px 20px 0;}
+.electronic-bank ul li a{ display:block;width:244px;height:73px;padding:16px 0 0 12px;border:solid 1px #ccc;}
+.electronic-bank ul li a b{font-weight:400;margin:0 0 0 20px;}
+.electronic-bank ul li a img{margin:0 0 15px 0;}
+.electronic-bank ul li a:hover,.electronic-bank li.current a{color:#666;background:url(../images/el_bank_bg.png) repeat-x;border:solid 1px #63c890;}
+.electronic-bank-more{position:absolute;bottom:25px;right:0;}
+.electronic-bank-more a{margin:0 20px 0 0;float:left;font-size:12px;color:#3c8aff; text-decoration:underline;}
+
+
+
+/*投资第三步银行卡选择*/
+.bankLogo{margin:20px 0 20px 0;padding:20px 10px;background:#ebebeb;border:1px solid #d8d8d8; position:relative;border-radius:4px;z-index:4;}
+.bankLogo .sj{position:absolute;left:50px;top:-8px;width:15px;height:8px;background:url(../images/sj.png) 0 0 no-repeat}
+.bankLogo ul li{float:left;margin-left:20px;margin-bottom:20px;}
+.bankLogo .zk{text-align:right;}
+.bankLogo .zk a{color:#06F;padding-left:24px;}
+.bankLogo .zk a.up {background: url("../images/fh_1_up.png") no-repeat scroll left center}
+.bankLogo .zk a.down {background: url("../images/fh_1.png") no-repeat scroll left center }
+.cash_model{margin: 0 auto;overflow:hidden;}
+#newmain ul{display:none;}
+.cash_model .radioBox{float:left;height:28px;line-height:28px;margin:0 0 5px 0;padding:2px 0;border:2px solid #ddd;background:#FFF;color:#555; cursor:pointer}
+.cash_model .focus{border:2px solid #f60;background:#FFF url(../images/icon_select_1.png) right bottom no-repeat;}
+.cash_model .radioBox span{display:block;height:30px;width:140px;}
+.cash_model .radioBox input{display:none}
+.bank-logo {background-image: url("../images/bank.png");background-position: -999px 0;background-repeat: no-repeat;}
+.cash_model ul li{float:left;margin:0 6px 10px 0;}
+#newmain{width:90%;margin:0 auto;}
+#newmain ul li{float:left;margin:0 10px 10px 0;position:relative;}
+.cash_model ul li a{height:28px;line-height:28px;margin:0 0 5px 0;padding:2px 0;border:2px solid #ddd;background:#FFF;color:#555; cursor:pointer;width:140px; display:block; text-align:center;}
+.cash_model ul li input[type="radio"]{float:left;margin:10px 0 0 0; display:none;}
+.ui-button-lorange{ display:block;}
+
+.bank-card{background:url(../images/bank_card.png) no-repeat;}
+.electronic-logo-bank{background:url(../images/bank_card.png) no-repeat;width:126px;height:32px;margin-bottom:10px;}
+.bank-cmb{background-position:0 -893px;}
+.bank-cmmb{background-position:0 -35px;}
+.bank-icbc{background-position:0 0;}
+.bank-ccb{background-position:0 -67px;}
+.bank-abc{background-position:0 -99px;}
+.bank-boc{background-position:0 -132px;}
+.bank-comm{background-position:0 -330px;}
+.bank-pingan{background-position:0 -463px;}
+.bank-psbc{background-position:0 -493px;}
+.bank-shbc{background-position:0 -530px;}
+.bank-wzbc{background-position:0 -564px;}
+.bank-spdb{background-position:0 -166px;}
+.bank-ecitic{background-position:0 -398px;}
+.bank-cgbchina{background-position:0 -430px;}
+.bank-hxb{background-position:0 -600px;}
+.bank-cmbc{background-position:0 -362px;}
+.bank-cib{background-position:0 -230px;}
+.bank-cebbank{background-position:0 -296px;}
+.bank-srcb{background-position:0 -640px;}
+.bank-bankofbeijing{background-position:0 -265px;}
+.bank-bjrcb{background-position:0 -680px;}
+.bank-hebbank{background-position:-5px -1000px;}
+.bank-hsbank{background-position:-5px -1075px;}/**徽商银行**/
+.bank-qdccb{background-position:0 -1044px;}/**青岛银行**/
+.bank-zgb{background-position:0 -132px;}
+.bank-pab{background-position:0 -461px;}
+.bank-xyb{background-position:0 -331px;}
+.bank-xyyb{background-position:0 -232px;}
+.bank-nbb{background-position:0 -33px;}
+.bank-nnbb{background-position:0 -716px;}
+.bank-hbb{background-position:0 -1002px;}
+.bank-tjb{background-position:0 -1113px;}
+.bank-hsb{background-position:0 -685px;}
+.bank-hssb{background-position:0 -1075px;}
+.bank-lzb{background-position:0 -1119px;}
+.bank-lzzb{background-position:0 -1148px;}
+.bank-zxb{background-position:0 -1181px;}
+.bank-yhb{background-position:0 -1216px;}
+.bank-sx{background-position:0 -1253px;}
+
+.confirm-receipt{position:absolute;right:50px;top:105px;width:330px;}
+.confirm-receipt .receipt{border:solid 1px #ece9d9;background: #F8F8F8;margin:10px 0 20px 0;padding:20px 30px;}
+.confirm-receipt .receipt h4{text-align:center;font-size:16px;color:#666;font-weight:700; line-height:32px;}
+.confirm-receipt .receipt .date{text-align:center;margin:0 0 5px 0;color:#8d8d8d;padding:5px 0;font-size:12px;}
+.confirm-receipt .receipt ul{border-top:1px solid #e0dcad;line-height:38px;padding:5px 0;}
+.confirm-receipt .receipt-ts{font-size:12px;color:#999; text-align:right;margin:20px 0 0 0;}
+.confirm-clock{border:solid 1px #c5c5c5;background:#fbfbfb;padding:12px 0; overflow:hidden;line-height:34px;}
+.confirm-clock i{ background-position:-251px -123px;width:33px;height:33px; display:block;float:left;margin:0 20px;}
+.confirm-service{background:#ebebeb; overflow:hidden;margin:20px 0 0 0;font-family:"Microsoft YaHei";}
+.confirm-service .ui-service-tel{font-size:20px;line-height:60px;line-height:30px;padding:20px 0 15px 0;}
+.confirm-service .ui-service-tel i{ background-position:-326px -118px;width:31px;height:63px; display:block;float:left;margin:10px 15px 0 25px;}
+.confirm-service .ui-service-tel span{font-size:12px;}
+.confirm-service .ui-service-online a{ background-position:-304px 0;width:173px;height:41px; display:block;color:#fff;font-size:18px;line-height:41px; text-indent:75px;margin:10px auto 30px auto;}
+
+/*合作银行logo*/
+.ui-bank{float:left;height:36px;line-height:36px;width:310px;border:1px solid #ccc;background:#FFF;position:relative; margin-right:10px;}
+.ui-bank .bank-number{float:left}
+.bank-select{height:30px;background:url(../images/arrow5.png) right center no-repeat;}
+.bank-select .bank-logo,.bank-list .bank-logo {float:left;height:30px;margin-left:5px;width:125px;}
+.bank-list{background:#FFF;border:1px solid #CCCCCC;position:absolute;left:-1px;top:30px;box-shadow:0 2px 2px #ccc;display:none;width:100%; z-index:17; max-height:270px; overflow:auto;}
+.bank-list ul{float:left;width:100%}
+.bank-list ul li{float:left;padding:3px 0;width:100%;border-bottom:1px solid #eee;cursor:pointer}
+.bank-list ul li.current{background:#eee;}
+.bank-select-current{background:url(../images/arrow_4_up.png) right center no-repeat;}
+.logo-cmb{background:url(../images/logo-cmb.png) 0 0 no-repeat}
+.logo-fcmb{background:url(../images/logo-fcmb.png) 0 0 no-repeat}
+.logo-ucsmy{background:url(../images/logo-ucsmy.png) 0 0 no-repeat}
+.ui-link{ margin:0;}
+.ui-link span{font-family:"simsun";margin:12px 15px 0 0;float:left;}
+.ui-link a{font-size:16px;color:#2ea7e7;cursor:pointer;}
+
+.explanation{border:solid 1px #e6d8be;background:#fffddf;color:#555;margin:0 0 0 15px;padding:10px;line-height:22px; position:relative;float:left}
+.explanation span{background:url(../images/arrow_3.png) no-repeat;width:6px;height:11px; position:absolute;left:-6px;top:19px;}
+.explanation span.arrow-up{background:url(../images/arrow_2.png) no-repeat;width:15px;height:9px;position:absolute;left:15px;top:-9px;}
+.explanation b{color:#b27e02;}
+
+.new-account{margin:7px 38px 0 20px;font-family:"simsun";}
+.confirmation{line-height:40px;/*margin:20px 0;*/}
+#fast{display:block;padding:5px 0;}
+
+.confirmation .ui-label{width:110px; text-align:right;}
+.confirmation input[type="text"]{height:38px;line-height:38px;padding:0 5px;border:solid 1px #ccc;margin:0 10px 0 0;}
+.confirmation input.ui-code-sent{width:118px;height:27px;border:none;font-size:12px; cursor:pointer;}
+.confirmation input.ui-code-sent{ background-position:-507px -27px;color:#555;}
+.confirmation input.ui-code-button{background-position:-507px 0;color:#c67e4a;}
+.tips-correct-info{ background-position:-779px 9px;padding:0 0 0 30px;}
+
+/*单选框*/
+.checkbox{
+	width: 19px;
+	height: 25px;
+	padding: 0 7px 0 0;
+	background: url(../images/checkbox.png) no-repeat;
+	display: block;
+	clear: left;
+	float: left;
+	margin-top:6px;
+}
+.styled{
+	display:block;
+	margin-right:10px;
+	}
+	
+/*按钮*/
+.ui-button-4{height:35px;padding:0 15px;background:url(../images/btn_05.png) 0 0 repeat-x;border:0px;border-radius:6px;color:#FFF;font-size:18px;cursor:pointer}
+.ui-button-4:hover{background-position:left bottom}
+
+.no-content{margin:0 auto;border:1px dashed #dfdfdf;border-radius:8px; background:#fff url(../images/no_content_1.gif) 130px center no-repeat;width:830px;height:280px; overflow:hidden;}
+.no-content p{font-size:18px;margin:120px 0 0 330px;}
+
+.can-not-find{background:#fff url(../images/no_content_ts.gif) center center no-repeat;min-height:550px; overflow:hidden;}
+.can-not-find p{width:275px;font-size:18px;color:#757575;margin:100px 0 0 400px;line-height:30px;}
+
+.ts {
+    color: #666666;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+/*我要借款*/
+.financing-table{padding-bottom:50px;}
+.financing-table .title_1{position:relative;height:70px;line-height:50px;font-size:24px;text-align:center;padding:20px 0;background:url(../images/bigJT.gif) center bottom no-repeat}
+.financing-table .back{position:absolute;right:20px;top:30px;font-size:14px;font-family:"simsun";padding-left:16px;background:url(../images/help/bg.png) -189px -745px no-repeat;line-height:20px;}
+.financing-table .first{background:url(../images/icon.png) -386px -1412px no-repeat;padding-left:25px;position:absolute;right:20px;top:30px;color: #666666;font-family: SimSun;height:30px;line-height:30px;padding-left:23px;font-size:12px;font-weight:400}
+.financing-table .back:hover{color:#F00}
+.financing-table .title_2{height:32px;line-height:32px;margin:25px 0;}
+.financing-table .title_2 span{float:left;width:141px;height:32px;margin-left:100px;text-indent:1.2em;color:#FFF;font-size:14px;background:url(../images/title_bg_1.png) 0 0 no-repeat}
+.sqxx{ font-size:14px; color:#666; padding:0 145px; font-family:"????";}
+.sqts{ padding-top:20px; line-height:30px;}
+.sqxx h4{ font-weight:bold; color:#333; padding:20px 0px;}
+.sqxx input{ vertical-align:middle; margin:0px 5px 0px 60px;}
+.sqxx p{ padding:0px 0px 20px 0px;}
+.sqxx p a{}
+.sqxx p a:hover{ color:#06F;}
+.loan-banner{ height:302px; text-align:center; background:#fe5f4d}
+.loan-process{overflow:hidden; margin-top:20px;}
+.loan-process h3{ margin-left:20px; margin-bottom:10px}
+.loan-process ul{ background:#fff; border:1px solid #e9e9e9; border-radius:3px; height:93px; overflow:hidden}
+.loan-process ul li{ float:left; width:150px; border-right:1px solid #e9e9e9;text-align:left; padding-top:20px; height:73px; position:relative; padding-left:85px; line-height:54px;}
+.loan-process ul li:first-child{ border-left:0px; line-height:22px}
+.loan-process ul li:last-child{border-right:none;}
+.loan-process ul li span{ background:url(../images/icon.png) no-repeat; display:block; width:40px; height:40px; overflow:hidden;-webkit-transition: opacity .2s ease;-moz-transition: opacity .2s ease;-o-transition: opacity .2s ease;transition: opacity .2s ease; position:absolute;left:35px;top:30px}
+.loan-process ul li span.bg1{ background-position:1px -348px}
+.loan-process ul li span.bg2{ background-position:-45px -348px}
+.loan-process ul li span.bg3{ background-position:-102px -348px}
+.loan-process ul li span.bg4{ background-position:-151px -348px}
+.loan-process ul li span:hover{ opacity:0.75}
+.loan-process ul li b{ background:url(../images/icon.png) -212px -356px no-repeat; display:block; height:23px; position:absolute;right:-12px;top:38px; width:23px; z-index:3}
+
+.loan-entrance{height:300px; margin:30px auto; position:relative}
+.loan-entrance ul li{ width:470px;height:300px; background:#fff6f1; border:1px solid #FF8F00; border-radius:3px; border-top:16px solid #FF8F00; cursor:pointer;}
+.loan-entrance ul li h3{ font-size:48px; padding:35px 0 10px 0; text-align:center}
+.loan-entrance ul li p.intro{ margin:0px 50px 30px; line-height:24px; font-size:14px;}
+.loan-entrance ul li a.ui-button2{ margin:0 auto}
+.loan-entrance ul li:hover{ width:470px;height:300px; background:#f4fcff; border:1px solid #9ee0ff; border-radius:3px; border-top:16px solid #7ed6ff;}
+
+/*.loan-entrance ul li.li2{ background:#fff6f1; border:1px solid #ffe0cb}
+.loan-entrance ul li.li2 .bg{ background:#FF8F00}*/
+
+
+
+/****添加银行卡弹窗****/
+.bank-add-box{background:#fff;border:solid 5px #888;border-radius:5px; position:absolute; overflow:hidden;top:0;}
+.bank-add-box h3.title{height:40px;line-height:40px;color:#3571ba; text-indent:1em;background:#ececec; position:relative;}
+.bank-add-box h3 a.close{ background-position:-777px -102px; display:block;width:23px;height:23px; position:absolute;right:10px;top:10px;}
+.bank-add-box h3 a.close:hover{ background-position:-744px -102px;}
+.calculator-add{font-family:"simsun";font-size:14px;}
+.calculator-add input[type="text"]{border:solid 1px #c5c5c5;border-radius:2px;height:25px;padding:0 5px;color:#ababab;width:245px;line-height:25px;float:left;}
+.calculator-add select{color:#666;padding:5px 0;margin:0 10px 0 0;border:solid 1px #c5c5c5;}
+.bank-add-title2{font-size:14px;color:#666;font-family:"simsun";background:#eee;height:33px;line-height:33px; text-indent:1em;margin:0 auto 13px;}
+.calculator-btn input{width:165px;height:37px;line-height:37px;padding:0 17px;color:#fff;border:none;background:#d84124;font-size:16px;font-family:"Microsoft YaHei";border-radius:5px; cursor:pointer; text-align:center;}
+.calculator-btn span{font-size:18px;color:#333;padding-left:10px;}
+.calculator-btn span a{color:#d84124;}
+.calculator-btn input.reset{background:#dbdada;color:#727272;}
+.calculator-btn input.alter{background:#3571ba;}
+.bank-alter-text{font-family:"simsun"; text-align:center;margin:35px 0;}
+.bank-alter-text .note-content{font-size:16px;margin-bottom:20px;}
+.calculator-add span{color:#f10;}
+.calculator-add .ui-tips{white-space:nowrap;position:absolute;left:465px;box-shadow:0 2px 2px #ddd; display:block;}
+.calculator-add .ui-tips i{position:absolute;left:-7px;top:1px;width:8px;height:24px;}
+.calculator-add .tips-note{color:#4879b5;border:solid 1px #a4ceeb;font-size:12px;font-family:"宋体";padding:2px 5px 2px 28px; background:#e7f4fa url(../images/icon_wrning.png) 6px 5px no-repeat;border-radius:2px;max-width:420px;min-height:22px;line-height:20px;}
+.calculator-add .tips-note i{background:url(../images/arrow_left_01.gif) left center no-repeat}
+.calculator-add .tips-error{background:#faf7e7 url(../images/fh_xx.png) 6px 5px no-repeat;border:solid 1px #ebc5a4;font-size:12px;font-family:"宋体";min-height:22px;max-width:420px;padding:2px 5px 2px 28px;border-radius:2px;color:#de883b;line-height:20px;}
+.calculator-add .tips-error i{background:url(../images/arrow_left_02.gif) left center no-repeat}
+.calculator-add .tips-correct{ background-position:-779px -51px;width:21px;height:21px; display:block;float:left;margin:4px 0 0 10px;}
+
+.white-list{margin:32px 0 30px 50px;}
+.confirm-text{font-family:"simsun";font-size:14px;line-height:30px;margin:0 0 30px 50px;}
+
+.personal-info-text{font-size:14px;line-height:48px;margin:25px 0 20px 30px;}
+.personal-info-text p{ overflow:hidden;}
+.personal-info-text p span.personal-info-tips{background:#fdfae2;border:solid 1px #e09e3e;border-radius:5px;height:34px;line-height:34px; display:block;font-size:12px;color:#81511a;padding:0 12px; position:relative;margin:6px 0 0 30px;}
+.personal-info-text p span.personal-info-tips i{background:url(../images/arrow_left_05.png) no-repeat;width:7px;height:12px; position:absolute;left:-7px;top:12px;}
+.personal-info-text p a.up{margin:0 0 0 15px;padding:0 15px 0 0;background:url(../images/account_img_51.png) right center no-repeat;}
+.personal-info-text p a.downward{background:url(../images/account_img_52.png) right center no-repeat;}
+.personal-info-table{margin:0 20px;border-top:dashed 1px #e6e6e6;padding:25px 0 0 0;display:block}
+.personal-info-table table.ui-table-2 th{color:#999;}
+
+
+/* ??????2015-6-26 */
+.sucess_time { font-size:18px; color:#535353;}
+.sucess_tip { font-size:14px; color:#939393; margin-bottom:15px;}
+
+
+/*新版添加银行卡*/
+.newadd{width:94%;margin:0 auto;}
+.kj{overflow:hidden;}
+.newtop{width:90%;height:35px;margin:0 auto 20px;border-bottom:1px solid #ccc;}
+.newtop ul li{float:left;width:140px;height:35px;line-height:35px;text-align:center;margin-right:10px;background-color:#f6f6f6;border-radius:3px;font-size:14px;color:#555;}
+.newtop ul li.current{border-top:1px solid #ccc;border-right:1px solid #ccc;border-left:1px solid #ccc;background-color:#fff;font-weight:700;}
+.support{display:none;width:144px;height:15px;position:absolute;background:rgba(255,0,0,0.5);filter:Alpha(opacity=50);background-color:red;bottom:-9px;left:0;text-align:center;line-height:15px;}
+.support span{font-size:12px;color:#fff;}

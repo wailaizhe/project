@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+/*初始样式*/
+html,body,h1,h2,h3,h4,h5,h6,dl,dt,dd,ul,li,ol,em,strong,p,input,div,i,table,th,tr,td,a,span,img{margin:0;padding:0;}
+ul,li{list-style:outside none none;}
+em,i{ font-style:normal;}
+h1,h2,h3,h4,h5,h6{font-size:12px;font-weight:normal;}
+img{border:medium none none;vertical-align:middle;}
+a{text-decoration:none;cursor:pointer;color:#666;}
+input{list-style:none;outline:none;}
+body{color:#666;font-family:"微软雅黑";}
+.clear{clear:both;}
+.clearfix{zoom:1;}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+
+.wrap{width:100%;height:auto;margin:0 auto;overflow:hidden;background-color:#fff;}
+/*头部*/
+.head_section{width:1024px;height:136px;margin:0 auto;}
+.head_section a img{margin-left:20px;margin-top:15px;float:left;}
+.head_section span{margin-left:280px;margin-top:80px;float:left;font-size:24px;color:#fd9e2a;font-weight:bold;}
+/**/
+.context_section{width:100%;height:auto;overflow:hidden;}
+.pic1_div{width:100%;height:auto;overflow:hidden;background:url(../images/mobile_app/banner_bg.png);text-align:center;}
+.pic1_div img{width:1024px;height:470px;}
+.load_app{width:1024px;height:auto;overflow:hidden;margin:0 auto;}
+.pic2_div{width:625px;height:auto;float:left;overflow:hidden;}
+.pic2_div img{width:582px;height:331px;}
+.app_con{width:325px;height:auto;margin-top:20px;overflow:hidden;float:left;}
+.app_button{width:167px;height:210px;float:left;}
+.app_button a{display:block;margin-bottom:10px;cursor:pointer;text-align: center;}
+.app_ma{width:127px;height:300px;float:left;margin-left:30px;}
+.app_ma i{float:left;display:block;text-align:center;margin-right:100px;font-size:12px;margin-bottom:10px;}
+
+.s3{width:100%;height:auto;background-color:#fbe8c7;}
+.section_3{width:1024px;height:565px;margin:0 auto;background:url(../images/mobile_app/pic3.png) no-repeat 0 0;position:relative;}
+.section_3 ul{position:absolute;top:300px;left:150px;}
+.section_3 ul li h5{font-size:40px;line-height:72px;color:#fd7628;}
+.section_3 ul li h6{font-size:30px;line-height:64px;}
+
+.s4{width:100%;height:auto;overflow:hidden;}
+.section_4{width:1024px;height:631px;margin:0 auto;background:url(../images/mobile_app/pic4.png) no-repeat 0 0;position:relative;}
+.section_4 ul{position:absolute;top:420px;left:540px;}
+.section_4 ul li h5{font-size:40px;line-height:72px;color:#fd7628;}
+.section_4 ul li h6{font-size:30px;line-height:64px;}
+
+/*服务模块开始*/
+.service_section{width:100%;height:153px;background:url(../images/mobile_app/b_bg.png)repeat 0 0;margin:40px auto 0;overflow:hidden;}
+.service_section ul{width:1010px;margin:35px auto;}
+.service_section ul li{display:block;float:left;overflow:hidden;margin-right:10px;height:90px;border-right:1px solid #ccc;padding-right:5px;}
+.service_section ul li.last{margin-right:0;border:0;}
+.service_section ul li img,.service_section ul li .kf,.service_section ul li .help{float:left;}
+.service_section ul li .kf,.service_section ul li .help{margin-left:20px;}
+.service_section ul li .help{margin-top:4px;}
+.service_section ul li .help1{color:#fff;}
+.service_section ul li .help2{margin-top:0;color:#fff;}
+.service_section ul li .kf h3,.service_section ul li .help h3{font-size:18px;color:#fff;margin-bottom:6px;}
+.service_section ul li .kf p.kfphone{font-size:18px;color:#fff;}
+.service_section ul li .help p{line-height:22px;font-size:14px;}
+.service_section ul li .kf p,.service_section ul li .help p a{font-size:12px;color:#fff;}
+
+.foot{width:100%;height:40px;line-height:40px;font-size:14px;text-align:center;background-color:#e1e1e1;color:#616161;}

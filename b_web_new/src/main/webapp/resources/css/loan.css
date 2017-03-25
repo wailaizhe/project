@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+.banner_section{width:100%;height:440px;background:url(../images/8855bj.jpg);}
+.banner{width:1282px;margin:0 auto;height:440px;position:relative;}
+.banner img{width:1282px;height:440px;}
+.life{width:315px;height:500px;background-color:#fff;position:absolute;top:40px;right:115px;border-radius:5px;}
+.life_head{width:300px;height:35px;line-height:35px;background-color:#fd9a29;position:absolute;top:15px;left:-5px;font-size:22.25px;color:#fff;padding-left:25px;}
+.life_main{width:252px;height:auto;margin:75px 0 0 28px;font-size:16px;color:#5b5b5b;}
+.life_main span{display:block;margin-bottom:16px;clear:both;}
+.life_main span em{display:inline-block;height:30px;line-height:30px;}
+.life_main span input{padding-left:10px;width:155px;height:30px;border:1px solid #cbcbcb;}
+.life p label{margin:0 14px;}
+.imp{font-size:14px;color:#00abd6;}
+.loan_btn{width:260px;height:45px;border-radius:5px;background-color:#fd9a29;margin:15px auto;text-align:center;line-height:45px;}
+.loan_btn a{font-size:24px;color:#fff;display:block;}
+
+.lifesection{width:1050px;height:auto;margin:20px auto;}
+.lifemain{width:100%;background-color:#fff;border:1px solid #cbcbcb;margin-top:-4px;min-height:500px;height:auto;}
+.lifecenter{margin-left:260px;margin-top:45px;}
+.lifecenter span{display:block;font-size:16px;color:#000;margin-bottom:20px;clear:both;}
+.lifecenter span i,.loan2left span i,.loan2right span i{font-style:normal;display:inline-block;height:40px;line-height:40px;}
+.lifecenter span.marginleft{margin-left:37px;}
+.lifecenter input{padding-left:10px;width:230px;height:40px;line-height:40px;background-color:#f6f7f8;border:1px solid #eceae5;font-size:16px;}
+.lifecenter .flat,.loan2left .flat,.loan2right .flat{width:220px;height:28px;background-color:#f6f7f8;border:1px solid #eceae5;font-size:16px;padding:12px 0 0 10px;}
+.loanbtn{width:100%;margin:0 auto;overflow:hidden;}
+.lifebtn,.rightbtn{float:left;width:200px;height:50px;background-color:#ff5500;text-align:center;line-height:50px;margin:30px 10px;}
+.lifebtn a,.rightbtn a{font-size:20px;color:#fff;display:block;}
+
+.loan2section{width:1050px;margin:20px auto;}
+.loan2main{width:100%;background-color:#fff;border:1px solid #cbcbcb;margin-top:-4px;min-height:500px;height:auto;overflow:hidden;padding-top:45px;}
+.loan2left,.loan2right{float:left;}
+.loan2left span,.loan2right span{font-size:16px;color:#333;display:block;margin-bottom:20px;clear:both;}
+.loan2left span input,.loan2right span input{padding-left:10px;width:230px;height:40px;line-height:40px;background-color:#f6f7f8;border:1px solid #eceae5;font-size:16px;}
+.loan2left{padding-left:100px;width:40%;}
+.loan2right{padding-left:50px;width:45%;}
+.loan2left .flat,.loan2right .flat{margin-bottom:20px;}
+.loan2btn{width:450px;margin:20px auto;}
+
+.loan3section{width:1050px;margin:20px auto;}
+.loan3main{width:100%;background-color:#fff;border:1px solid #cbcbcb;margin-top:-4px;min-height:370px;height:auto;overflow:hidden;padding-top:45px;}
+.loan3main h3{height:60px;line-height:60px;font-size:30px;color:#333;width:260px;margin:50px auto;}
+.loan3main h3 i{display:inline-block;vertical-align:middle;margin-right:10px;}
+
+.bannersection{width:100%;height:617px;background-color:#029841;}
+.lifebanner{width:996px;margin:0 auto;}
+
+/*产品介绍开始*/
+.loan_pro{width:1050px;min-height:200px;height:auto;margin:28px auto 40px;overflow:hidden;}
+.loan_pro .pro_head,.apply .apply_head{width:100%;height:25px;border-left:5px solid #e84c01;line-height:25px;}
+.loan_pro .pro_head h3,.apply .apply_head h3{font-size:24px;color:#e84c01;font-weight:600;padding-left:15px;}
+.pro_main{margin-top:14px;}
+.pro_main ul li{float:left;width:255px;height:365px;margin-right:7px;}
+.pro_main ul li.pj,.pro_main ul li.xw,.pro_main ul li.gw,.pro_main ul li.dy{border:1px solid #e7d9be;background-color:#fff6e4;}
+.pro_main ul li.xw{background-color:#dbfaff;border:1px solid #c3e3f2;}
+.pro_main ul li.gw{background-color:#ffe7dd;border:1px solid #edc4b0;}
+.pro_main ul li.dy{margin:0;background-color:#dfeef5;border:1px solid #bfd2d9;}
+.pro_main ul li.pj img,.pro_main ul li.xw img,.pro_main ul li.gw img,.pro_main ul li.dy img{margin:14px 0 0 50px;}
+.pj_btn,.xw_btn,.gw_btn,.dy_btn{width:233px;height:47px;background-color:#ef7601;border:1px solid #d16500;border-radius:3px;margin:12px auto;text-align:center;line-height:47px;}
+.xw_btn{background-color:#518af5;border:1px solid #5083de;}
+.gw_btn{background-color:#de626a;border:1px solid #ca5f65;}
+.dy_btn{background-color:#80abce;border:1px solid #80abce;}
+.pj_btn a,.xw_btn a,.gw_btn a,.dy_btn a{font-size:20px;color:#fff;display:block;}
+.pj_main{width:233px;margin:20px auto;}
+.pj_main p{font-size:14px;color:#333;line-height:28px;overflow:hidden;}
+.pj_main p em{color:#c03e00;float:left;}
+.pj_main p i{font-style:normal;display:block;float:left;width:160px;height:auto;}
+
+/*申请流程开始*/
+.apply{width:1050px;margin:0 auto;}
+.yb_apply{margin:20px 0 30px 0;}
+

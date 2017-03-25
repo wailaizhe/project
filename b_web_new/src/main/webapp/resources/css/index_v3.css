@@ -1,0 +1,114 @@
+﻿@charset "utf-8";
+/* CSS Document */
+/*banner开始*/
+.slides{width:100%;height:490px;position:relative;overflow:hidden;margin:0 auto;}
+.slideInner{height:490px;position:relative;left:0;margin-left:0;}
+.slideInner a{display:block;height:490px;background-size:cover;background-position:center center;position:relative;text-align:center;z-index:1;}
+.slideInner a div.img1{width:1070px;position:absolute;left:50%;margin-left:-505px;}
+.slideInner a div.img2{width:590px;position:absolute;top:557px;left:50%;margin-left:-535px;}
+.slideInner .slide3 .img2{top:200px;}
+.slideInner .slide3 .img3{width:181px;height:286px;position:absolute;left:50%;margin-left:330px;top:330px;}
+/*.nav{width:1200px;position:relative;left:50%;margin-left:-600px;display:none;}
+.nav a{display:block;width:41px;height:119px;opacity:.2;z-index:9;}
+.nav a.prev{position:absolute;left:0;top:-235px;margin-top:-58px;background:url(../images/ban_pre.png) no-repeat;}
+.nav a.next{position:absolute;right:0;top:-235px;margin-top:-58px;background:url(../images/ban_next.png) no-repeat;}
+*/.navListBox{position:absolute;left:50%;bottom:40px;z-index:99;}
+.navListBox li{width:12px;height:12px;float:left;margin-left:5px;border-radius:50%;overflow:hidden;}
+.navListBox li:first-child{margin-left:0;}
+.navListBox li a{display:block;width:100%;height:100%;border-radius:50%;background-color:#fff;box-shadow:0 0 5px #666 inset;}
+.navListBox li a.active{background-color:#55ddff;}
+.notice{width:100%;height:35px;background:url(../images/notice_bg.png) repeat-x;}
+.notice_con{width:1024px;margin:0 auto;position:relative;}
+.notice_con p{height:35px;line-height:35px;font-size:14px;color:#fff;}
+.notice_con p a{color:#fff;}
+.notice_con p i{display:inline-block;width:16px;height:16px;background:url(../images/notice.png) no-repeat;position:relative;top:3px;margin-right:5px;}
+.apple{ position:absolute;top:0;left:100px;}
+.apple,.aa{float:left; width:80%; height:35px; overflow:hidden;}
+.apple a,.aa a{ width:100%; height:35px; line-height:35px; text-indent:20px; color:#fff;font-size:14px;}
+.aa {word-wrap:break-word;line-height:50px;  color:#fff;}
+
+.newbanner{overflow:hidden;width:1024px;margin:30px auto 0;}
+.newbanner ul li{display:block;float:left;width:311px;height:169px;margin-right:9px;padding:28px 0 0 23px;}
+.newbanner1{background:url(../images/newbanner1.jpg) no-repeat;}
+.newbanner2{background:url(../images/newbanner2.jpg) no-repeat;}
+.newbanner ul li.newbanner3{position:relative;background:url(../images/newbanner3.jpg) no-repeat;margin-right:0;}
+.download{position:absolute;top:17px;right:5px;}
+.download a{display:block;margin-bottom:5px;}
+.newbanner ul li h3{font-size:24px;color:#f34d00;}
+.newbanner ul li p{font-size:14px;color:#666;margin-top:20px;}
+
+/*理财列表开始*/
+.list_section{width:1024px;margin:0px auto;min-height:570px;height:auto;}
+.list_head{overflow:hidden;height:36px;line-height:36px;}
+.list_head h3{font-size:24px;color:#f34d00;float:left;}
+.list_head a{float:right;font-size:18px;color:#f34d00;}
+.list_main ul li{display:block;width:1004px;height:132px;background-color:#fff;margin-top:12px;padding:28px 0 0 31px;overflow:hidden;border:1px solid #fff;}
+.list_main ul li:hover{border:1px solid #ffccb4;}
+.list_main ul li .lit_left{width:700px;float:left;}
+.list_main ul li h3{position:relative;}
+.list_main ul li h3 span{font-size:18px;color:#333;padding-left:35px;}
+.list_main ul li h3 i{position:absolute;}
+.leftmain{margin-top:20px;}
+.tim{margin-top:11px;}
+.leftmain span{display:block;float:left;width:210px;font-size:18px;color:#666;}
+.leftmain span b{font-size:36px;color:#333;font-weight:normal;}
+.leftmain span em{font-size:24px;color:#333;}
+.guimo{font-size:18px;color:#666;display:inline-block;margin-top:19px;}
+.leftmain span.guimo em,.leftmain span.guimo b{font-size:24px;color:#333;}
+.leftmain span.lilv{width:270px;}
+.leftmain span.lilv b{font-size:48px;color:#de2020;font-weight:700;font-family:"Arial";}
+.leftmain span.lilv em{font-size:24px;color:#de2020;font-family:"Arial";}
+.lit_right{float:right;padding-top:11px;}
+.lit_right p{font-size:14px;color:#333;}
+.yr_btn{width:212px;height:54px;background-color:#01b547;border-radius:5px;text-align:center;line-height:54px;margin-right:38px;margin-top:8px;}
+.yr_btn a{font-size:24px;color:#fff;display:block;}
+.lit_btn{width:212px;height:54px;background-color:#f34d00;border-radius:5px;text-align:center;line-height:54px;margin-right:38px;margin-top:8px;}
+.lit_btn a{font-size:24px;color:#fff;display:block;}
+.mb_btn{width:212px;height:54px;background-color:#6d6d6d;border-radius:5px;text-align:center;line-height:54px;margin-right:38px;margin-top:8px;}
+.mb_btn a{font-size:24px;color:#fff;display:block;}
+.wc_btn{width:212px;height:54px;background-color:#dcdcdc;border-radius:5px;text-align:center;line-height:54px;margin-right:38px;margin-top:8px;}
+.wc_btn a{font-size:24px;color:#fff;display:block;}
+
+/*服务模块开始*/
+.service_section{width:100%;overflow:hidden;background:url(../images/footericon.jpg);}
+.service_section ul{width:1024px;height:75px;margin:0 auto;padding:30px 0;}
+.service_section ul li{display:block;float:left;overflow:hidden;margin-right:15px;height:90px;border-right:1px solid #ccc;padding-right:17px;color:#fff;}
+.service_section ul li.last{margin-right:0;border:0;}
+.service_section ul li img,.service_section ul li .kf,.service_section ul li .help{float:left;}
+.service_section ul li .kf,.service_section ul li .help{margin-left:20px;margin-top:5px;}
+.service_section ul li .help{margin-top:4px;}
+.service_section ul li .help2{margin-top:0;}
+.service_section ul li .kf h3,.service_section ul li .help h3{font-size:18px;color:#fff;margin-bottom:6px;}
+.service_section ul li .kf p.kfphone{font-size:18px;color:#fff;}
+.service_section ul li .help p{line-height:22px;}
+.service_section ul li .kf p,.service_section ul li .help p a{font-size:14px;color:#fff;}
+
+/*投资意向*/
+.main_right .tzyx{display:block;width:297px;height:101px;background:url(../images/yxdj_bg.jpg) no-repeat;margin-top:20px;padding:20px 0 0 20px;} 
+.main_right .tzyx #yx_btn{display:block;width:181px;height:49px;}
+
+/*投资意向弹出层*/
+.yx_tan{width:530px;height:560px;background-color:#f3f3f3;}
+.yx_top{height:40px;background-color:#3571ba;line-height:40px;font-size:16px;color:#fff;padding-left:10px;}
+.yx_top .yx_icon{display:inline-block;width:25px;height:25px;background:url(../images/11_v2.png) no-repeat;vertical-align:middle;padding-left:5px;}
+.tan_main ul li{font-size:14px;color:#666;display:block;}
+.tan_main .five{margin:20px 0 0 70px;}
+.tan_main .seven{margin:20px 0 0 42px;}
+.tan_main .four{margin:20px 0 0 84px;}
+.tan_main .three{margin:20px 0 0 99px;}
+.tan_main ul li input{background:none;border:0;width:230px;height:35px;border:1px solid #dedede;background-color:#fff;padding-left:10px;color:#ccc;font-size:14px;}
+.tan_main ul li select{background:none;border:0;width:244px;height:35px;border:1px solid #dedede;background-color:#fff;padding-left:10px;color:#ccc;}
+.tan_main p{text-align:center;font-size:14px;color:#ff0000;display:block;width:410px;height:30px;line-height:30px;background-color:#fff1dd;border:1px solid #fae1bd;margin:20px auto;}
+.tan_main p .imp{display:inline-block;width:16px;height:16px;vertical-align:middle;background:url(../images/account_img_11.png) no-repeat;}
+.tan_main .tan_btn{width:140px;height:35px;margin:0 auto;text-align:center;line-height:35px;background-color:#ff9600;}
+.tan_main .tan_btn a{font-size:14px;color:#fff;display:block;}
+.tan_main h3{font-size:20px;color:#666;width:150px;margin:120px auto 20px;}
+.tan_main h3 .suc_icon{display:inline-block;width:27px;height:27px;background:url(../images/firm_info_34.png) no-repeat;vertical-align:middle;}
+.tan_main span{display:block;width:480px;text-align:center;}
+.wrapper{width: 1000px;font-size: 14px;margin: 0 auto;}
+.words{margin-bottom: 200px;}
+.popup-layer{z-index: 1000;position: absolute;top:0;left: 0;display: none;background: rgba(0,0,0,0.3);filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#5C000000,endColorstr=#5C000000);cursor: auto;}
+.popup-layer-box{position: absolute;width: 480px;height: 400px;}
+.close-popupLayer{position: absolute;top: 2px;right: -37px;font-size: 40px;line-height: 40px;color:#fff;font-weight: bold;cursor: pointer;}
+.btn-popup{cursor: pointer;font-size: 20px;font-weight: bold;color: red;width:181px;height:49px;}
+

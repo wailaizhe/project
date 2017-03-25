@@ -1,0 +1,741 @@
+Table: t_arc_person
+---------+-------------+------+-----+---------+---------
+ Field   | Type        | Null | Key | Default | Remarks 
+---------+-------------+------+-----+---------+---------
+ ID      | VARCHAR(32) | NO   | PRI |         |         
+ card_id | VARCHAR(30) | YES  |     |         |         
+ email   | VARCHAR(50) | YES  |     |         |         
+---------+-------------+------+-----+---------+---------
+
+Table: t_award_chance_info
+-----------------+--------------+------+-----+---------+---------
+ Field           | Type         | Null | Key | Default | Remarks 
+-----------------+--------------+------+-----+---------+---------
+ ID              | VARCHAR(32)  | NO   | PRI |         |         
+ fk_base_info_id | VARCHAR(50)  | YES  |     |         |         
+ fk_item_id      | VARCHAR(50)  | YES  |     |         |         
+ coin_type       | VARCHAR(5)   | YES  |     |         |         
+ client_type     | VARCHAR(32)  | YES  |     |         |         
+ create_time     | DATETIME(19) | YES  |     |         |         
+ is_used         | VARCHAR(10)  | YES  |     |         |         
+-----------------+--------------+------+-----+---------+---------
+
+Table: t_award_info
+-----------------+--------------+------+-----+---------+---------
+ Field           | Type         | Null | Key | Default | Remarks 
+-----------------+--------------+------+-----+---------+---------
+ ID              | VARCHAR(32)  | NO   | PRI |         |         
+ fk_base_info_id | VARCHAR(50)  | YES  |     |         |         
+ rank            | VARCHAR(5)   | YES  |     |         |         
+ total_coin_num  | VARCHAR(10)  | YES  |     |         |         
+ create_time     | DATETIME(19) | YES  |     |         |         
+ invalid_time    | DATETIME(19) | YES  |     |         |         
+ client_type     | VARCHAR(32)  | YES  |     |         |         
+ random_math     | VARCHAR(32)  | YES  |     |         |         
+ moblic_phone    | VARCHAR(32)  | YES  |     |         |         
+-----------------+--------------+------+-----+---------+---------
+
+Table: t_base_info
+----------------------+--------------+------+-----+---------+---------
+ Field                | Type         | Null | Key | Default | Remarks 
+----------------------+--------------+------+-----+---------+---------
+ ID                   | VARCHAR(32)  | NO   | PRI |         |         
+ mobile_phone         | VARCHAR(60)  | YES  |     |         |         
+ password             | VARCHAR(60)  | YES  |     |         |         
+ email                | VARCHAR(32)  | YES  |     |         |         
+ nick_name            | VARCHAR(32)  | YES  |     |         |         
+ company_name         | VARCHAR(100) | YES  |     |         |         
+ create_date          | DATETIME(19) | YES  |     |         |         
+ customerip           | VARCHAR(20)  | YES  |     |         |         
+ register_type        | VARCHAR(10)  | YES  |     |         |         
+ invite_code          | VARCHAR(60)  | YES  |     |         |         
+ user_birthday        | DATE(10)     | YES  |     |         |         
+ user_address         | VARCHAR(32)  | YES  |     |         |         
+ user_income          | VARCHAR(10)  | YES  |     |         |         
+ user_check_time      | VARCHAR(30)  | YES  |     |         |         
+ card_number          | VARCHAR(20)  | YES  |     |         |         
+ level                | VARCHAR(5)   | YES  |     |         |         
+ real_name            | VARCHAR(60)  | YES  |     |         |         
+ identity_card        | VARCHAR(60)  | YES  |     |         |         
+ activation_mail      | VARCHAR(10)  | YES  |     |         |         
+ mail_date            | VARCHAR(19)  | YES  |     |         |         
+ pram1                | VARCHAR(50)  | YES  |     |         |         
+ password_flag        | VARCHAR(19)  | YES  |     |         |         
+ lockpass_date        | VARCHAR(19)  | YES  |     |         |         
+ acc_seq              | VARCHAR(10)  | YES  |     |         |         
+ is_loan              | VARCHAR(4)   | YES  |     |         |         
+ region               | VARCHAR(32)  | YES  |     |         |         
+ client_type          | VARCHAR(50)  | YES  |     |         |         
+ forget_password      | VARCHAR(255) | YES  |     |         |         
+ invitation_code      | VARCHAR(255) | YES  |     |         |         
+ invited_code         | VARCHAR(255) | YES  |     |         |         
+ main_serial_number   | VARCHAR(32)  | YES  |     |         |         
+ thetime_login        | VARCHAR(32)  | YES  |     |         |         
+ try_paycode_flag     | VARCHAR(255) | YES  |     |         |         
+ try_specialcode_flag | VARCHAR(255) | YES  |     |         |         
+----------------------+--------------+------+-----+---------+---------
+
+Table: t_batch_send_sms
+---------------+--------------+------+-----+---------+---------
+ Field         | Type         | Null | Key | Default | Remarks 
+---------------+--------------+------+-----+---------+---------
+ ID            | VARCHAR(32)  | NO   | PRI |         |         
+ receiver      | VARCHAR(20)  | YES  |     |         |         
+ content       | TEXT(65535)  | YES  |     |         |         
+ status        | VARCHAR(5)   | YES  |     |         |         
+ operator      | VARCHAR(20)  | YES  |     |         |         
+ create_time   | DATETIME(19) | YES  |     |         |         
+ send_time     | DATETIME(19) | YES  |     |         |         
+ complete_time | DATETIME(19) | YES  |     |         |         
+---------------+--------------+------+-----+---------+---------
+
+Table: t_contact_number
+-------------------+-------------+------+-----+---------+---------
+ Field             | Type        | Null | Key | Default | Remarks 
+-------------------+-------------+------+-----+---------+---------
+ id                | INT(10)     | NO   | PRI |         |         
+ account_name      | VARCHAR(50) | YES  |     |         |         
+ account_id        | VARCHAR(50) | YES  |     |         |         
+ account_type      | VARCHAR(50) | YES  |     |         |         
+ location_city     | VARCHAR(25) | YES  |     |         |         
+ location_province | VARCHAR(25) | YES  |     |         |         
+ name_sort         | VARCHAR(5)  | YES  |     |         |         
+-------------------+-------------+------+-----+---------+---------
+
+Table: t_dic_region
+--------+--------------+------+-----+---------+---------
+ Field  | Type         | Null | Key | Default | Remarks 
+--------+--------------+------+-----+---------+---------
+ id     | INT(10)      | NO   | PRI |         |         
+ code   | VARCHAR(20)  | YES  |     |         |         
+ text   | VARCHAR(200) | YES  |     |         |         
+ level  | VARCHAR(255) | YES  |     |         |         
+ pcode  | VARCHAR(20)  | YES  |     |         |         
+ statue | INT(10)      | YES  |     |         |         
+--------+--------------+------+-----+---------+---------
+
+Table: t_dic_system
+-----------+--------------+------+-----+---------+---------
+ Field     | Type         | Null | Key | Default | Remarks 
+-----------+--------------+------+-----+---------+---------
+ ID        | VARCHAR(32)  | NO   | PRI |         |         
+ text      | VARCHAR(200) | YES  |     |         |         
+ code      | VARCHAR(20)  | YES  |     |         |         
+ encoding  | VARCHAR(20)  | YES  |     |         |         
+ scn       | VARCHAR(50)  | YES  |     |         |         
+ type      | VARCHAR(50)  | YES  |     |         |         
+ big_type  | VARCHAR(50)  | YES  |     |         |         
+ remark    | VARCHAR(200) | YES  |     |         |         
+ statue    | INT(10)      | YES  |     |         |         
+ max_limit | VARCHAR(50)  | YES  |     |         |         
+-----------+--------------+------+-----+---------+---------
+
+Table: t_finance_clear_list
+---------------+--------------+------+-----+---------+---------
+ Field         | Type         | Null | Key | Default | Remarks 
+---------------+--------------+------+-----+---------+---------
+ ID            | VARCHAR(50)  | NO   | PRI |         |         
+ loan_type     | VARCHAR(50)  | YES  |     |         |         
+ loan_code     | VARCHAR(10)  | YES  |     |         |         
+ loan_mount    | DECIMAL(10)  | YES  |     |         |         
+ bank_type     | VARCHAR(30)  | YES  |     |         |         
+ bank_card_no  | VARCHAR(80)  | YES  |     |         |         
+ bank_account  | VARCHAR(80)  | YES  |     |         |         
+ bank_id       | VARCHAR(50)  | YES  |     |         |         
+ bank_name     | VARCHAR(40)  | YES  |     |         |         
+ provinc_code  | VARCHAR(50)  | YES  |     |         |         
+ province      | VARCHAR(50)  | YES  |     |         |         
+ city_code     | VARCHAR(30)  | YES  |     |         |         
+ city          | VARCHAR(50)  | YES  |     |         |         
+ branch_bank   | VARCHAR(50)  | YES  |     |         |         
+ desrc         | VARCHAR(100) | YES  |     |         |         
+ status        | VARCHAR(5)   | YES  |     |         |         
+ item_id       | VARCHAR(50)  | YES  |     |         |         
+ item_name     | VARCHAR(50)  | YES  |     |         |         
+ deduction_fee | VARCHAR(20)  | YES  |     |         |         
+---------------+--------------+------+-----+---------+---------
+
+Table: t_invest_intent_info
+-----------------+--------------+------+-----+---------+---------
+ Field           | Type         | Null | Key | Default | Remarks 
+-----------------+--------------+------+-----+---------+---------
+ ID              | VARCHAR(50)  | NO   | PRI |         |         
+ amount          | VARCHAR(64)  | YES  |     |         |         
+ annual_yield    | VARCHAR(32)  | YES  |     |         |         
+ invest_deadline | VARCHAR(32)  | YES  |     |         |         
+ investor        | VARCHAR(100) | YES  |     |         |         
+ mobile_phone    | VARCHAR(60)  | YES  |     |         |         
+ email           | VARCHAR(64)  | YES  |     |         |         
+ user_code       | VARCHAR(32)  | YES  |     |         |         
+ user_name       | VARCHAR(100) | YES  |     |         |         
+ status          | VARCHAR(4)   | YES  |     |         |         
+ create_date     | DATETIME(19) | YES  |     |         |         
+-----------------+--------------+------+-----+---------+---------
+
+Table: t_item_info
+------------------------------------+--------------+------+-----+---------+---------
+ Field                              | Type         | Null | Key | Default | Remarks 
+------------------------------------+--------------+------+-----+---------+---------
+ ID                                 | VARCHAR(32)  | NO   | PRI |         |         
+ item_name                          | VARCHAR(50)  | YES  |     |         |         
+ item_no                            | VARCHAR(50)  | YES  |     |         |         
+ special_flag                       | VARCHAR(50)  | YES  |     |         |         
+ open_flag                          | VARCHAR(10)  | YES  |     |         |         
+ white_flag                         | VARCHAR(2)   | YES  |     |         |         
+ investor_code                      | VARCHAR(10)  | YES  |     |         |         
+ repay_type                         | VARCHAR(50)  | YES  |     |         |         
+ repay_source                       | VARCHAR(50)  | YES  |     |         |         
+ repay_source_type                  | VARCHAR(50)  | YES  |     |         |         
+ repay_source_content               | TEXT(65535)  | YES  |     |         |         
+ preheating_start_date              | DATETIME(19) | YES  |     |         |         
+ invest_start_date                  | DATETIME(19) | YES  |     |         |         
+ invest_end_date                    | DATETIME(19) | YES  |     |         |         
+ finance_clear_date                 | DATETIME(19) | YES  |     |         |         
+ real_finance_clear_date            | DATETIME(19) | YES  |     |         |         
+ interest_start_date                | DATETIME(19) | YES  |     |         |         
+ credit_card_end_date               | DATETIME(19) | YES  |     |         |         
+ finance_end_date                   | DATETIME(19) | YES  |     |         |         
+ repay_clear_date                   | DATETIME(19) | YES  |     |         |         
+ real_repay_clear_date              | DATETIME(19) | YES  |     |         |         
+ head_bank_pass_date                | DATETIME(19) | YES  |     |         |         
+ create_prj_date                    | DATETIME(19) | YES  |     |         |         
+ finance_period                     | DECIMAL(10)  | YES  |     |         |         
+ invester_year_rate                 | DECIMAL(10)  | YES  |     |         |         
+ platform_service_rate_year         | DECIMAL(10)  | YES  |     |         |         
+ financiers_rates                   | DECIMAL(10)  | YES  |     |         |         
+ min_invest_amount                  | INT(10)      | YES  |     |         |         
+ invest_unit_fee                    | DECIMAL(10)  | YES  |     |         |         
+ total_finance_money                | DECIMAL(10)  | YES  |     |         |         
+ max_finance_money                  | DECIMAL(10)  | YES  |     |         |         
+ settlement_type                    | VARCHAR(50)  | YES  |     |         |         
+ total_hand_money                   | DECIMAL(10)  | YES  |     |         |         
+ finance_full_interest              | DECIMAL(10)  | YES  |     |         |         
+ finance_platform_fee               | DECIMAL(10)  | YES  |     |         |         
+ finance_full_promise_fee           | DECIMAL(10)  | YES  |     |         |         
+ sub_bank_year_rate                 | DECIMAL(10)  | YES  |     |         |         
+ sub_bank_service_fee               | DECIMAL(10)  | YES  |     |         |         
+ finance_username                   | VARCHAR(255) | YES  |     |         |         
+ company_name                       | VARCHAR(255) | YES  |     |         |         
+ finance_mobile_phone               | VARCHAR(11)  | YES  |     |         |         
+ finance_account_name               | VARCHAR(255) | YES  |     |         |         
+ finance_account_bank               | VARCHAR(255) | YES  |     |         |         
+ finance_account_no                 | VARCHAR(255) | YES  |     |         |         
+ finance_account_province           | VARCHAR(255) | YES  |     |         |         
+ finance_account_city               | VARCHAR(10)  | YES  |     |         |         
+ finance_account_sub_bank_name      | VARCHAR(255) | YES  |     |         |         
+ finance_account_sub_bank_code      | VARCHAR(255) | YES  |     |         |         
+ finance_account_sub_bank_name_temp | VARCHAR(255) | YES  |     |         |         
+ finance_credit_check               | TEXT(65535)  | YES  |     |         |         
+ finance_finish_other_check         | VARCHAR(255) | YES  |     |         |         
+ item_dtl_info_str                  | TEXT(65535)  | YES  |     |         |         
+ item_dtl_info                      | TEXT(65535)  | YES  |     |         |         
+ item_note_info                     | TEXT(65535)  | YES  |     |         |         
+ item_all_status                    | VARCHAR(255) | YES  |     |         |         
+ item_list_flag                     | VARCHAR(5)   | YES  |     |         |         
+ item_approve_status                | VARCHAR(255) | YES  |     |         |         
+ progress_front                     | VARCHAR(255) | YES  |     |         |         
+ progress_back                      | VARCHAR(255) | YES  |     |         |         
+ sub_refuse_str                     | TEXT(65535)  | YES  |     |         |         
+ head_refuse_str                    | TEXT(65535)  | YES  |     |         |         
+ last_refuse_str                    | TEXT(65535)  | YES  |     |         |         
+ item_pay_status                    | VARCHAR(5)   | YES  |     |         |         
+ item_repay_status                  | VARCHAR(5)   | YES  |     |         |         
+ item_prefix                        | VARCHAR(20)  | YES  |     |         |         
+ sub_bank_code                      | VARCHAR(10)  | YES  |     |         |         
+ full_flag                          | VARCHAR(8)   | YES  |     |         |         
+ user_name                          | VARCHAR(255) | YES  |     |         |         
+ item_repay_flag                    | VARCHAR(8)   | YES  |     |         |         
+ contract_number                    | VARCHAR(30)  | YES  |     |         |         
+ loan_apply_number                  | VARCHAR(30)  | YES  |     |         |         
+ organization_number                | VARCHAR(80)  | YES  |     |         |         
+ loan_date                          | DATETIME(19) | YES  |     |         |         
+ item_type                          | VARCHAR(10)  | YES  |     |         |         
+ old_invest_end_date                | DATETIME(19) | YES  |     |         |         
+ is_change                          | VARCHAR(4)   | YES  |     |         |         
+ new_user_quota                     | VARCHAR(8)   | YES  |     |         |         
+ is_new_exclusive                   | VARCHAR(4)   | YES  |     |         |         
+ ticket_ratio                       | VARCHAR(4)   | YES  |     |         |         
+ print_receipt_num                  | VARCHAR(20)  | YES  |     |         |         
+ item_status_temp                   | VARCHAR(255) | YES  |     |         |         
+------------------------------------+--------------+------+-----+---------+---------
+
+Table: t_item_intro_list
+-------------------------------+--------------+------+-----+---------+---------
+ Field                         | Type         | Null | Key | Default | Remarks 
+-------------------------------+--------------+------+-----+---------+---------
+ ID                            | VARCHAR(50)  | NO   | PRI |         |         
+ item_name                     | VARCHAR(255) | YES  |     |         |         
+ item_no                       | VARCHAR(50)  | YES  |     |         |         
+ special_flag                  | VARCHAR(255) | YES  |     |         |         
+ open_flag                     | VARCHAR(10)  | YES  |     |         |         
+ investor_code                 | VARCHAR(10)  | YES  |     |         |         
+ repay_type                    | VARCHAR(255) | YES  |     |         |         
+ repay_source                  | VARCHAR(255) | YES  |     |         |         
+ repay_source_type             | VARCHAR(255) | YES  |     |         |         
+ repay_source_content          | TEXT(65535)  | YES  |     |         |         
+ preheating_start_date         | DATETIME(19) | YES  |     |         |         
+ invest_start_date             | DATETIME(19) | YES  |     |         |         
+ invest_end_date               | DATETIME(19) | YES  |     |         |         
+ finance_clear_date            | DATETIME(19) | YES  |     |         |         
+ real_finance_clear_date       | DATETIME(19) | YES  |     |         |         
+ interest_start_date           | DATETIME(19) | YES  |     |         |         
+ credit_card_end_date          | DATETIME(19) | YES  |     |         |         
+ finance_end_date              | DATETIME(19) | YES  |     |         |         
+ repay_clear_date              | DATETIME(19) | YES  |     |         |         
+ real_repay_clear_date         | DATETIME(19) | YES  |     |         |         
+ head_bank_pass_date           | DATETIME(19) | YES  |     |         |         
+ create_prj_date               | DATETIME(19) | YES  |     |         |         
+ finance_period                | DECIMAL(10)  | YES  |     |         |         
+ invester_year_rate            | DECIMAL(10)  | YES  |     |         |         
+ platform_service_rate_year    | DECIMAL(10)  | YES  |     |         |         
+ minInvest_amount              | INT(10)      | YES  |     |         |         
+ invest_unit_fee               | DECIMAL(10)  | YES  |     |         |         
+ total_finance_money           | DECIMAL(10)  | YES  |     |         |         
+ max_finance_money             | DECIMAL(10)  | YES  |     |         |         
+ settlement_type               | VARCHAR(255) | YES  |     |         |         
+ total_hand_money              | DECIMAL(10)  | YES  |     |         |         
+ finance_full_interest         | DECIMAL(10)  | YES  |     |         |         
+ finance_platform_fee          | DECIMAL(10)  | YES  |     |         |         
+ finance_full_promise_fee      | DECIMAL(10)  | YES  |     |         |         
+ sub_bank_year_rate            | DECIMAL(10)  | YES  |     |         |         
+ sub_bank_service_fee          | DECIMAL(10)  | YES  |     |         |         
+ finance_username              | VARCHAR(255) | YES  |     |         |         
+ company_name                  | VARCHAR(255) | YES  |     |         |         
+ finance_account_name          | VARCHAR(255) | YES  |     |         |         
+ finance_account_bank          | VARCHAR(255) | YES  |     |         |         
+ finance_account_no            | VARCHAR(255) | YES  |     |         |         
+ finance_account_province      | VARCHAR(255) | YES  |     |         |         
+ finance_account_city          | VARCHAR(10)  | YES  |     |         |         
+ finance_account_sub_bank_name | VARCHAR(255) | YES  |     |         |         
+ finance_credit_check          | TEXT(65535)  | YES  |     |         |         
+ finance_finish_other_check    | VARCHAR(255) | YES  |     |         |         
+ item_dtl_info_str             | TEXT(65535)  | YES  |     |         |         
+ item_dtl_info                 | VARCHAR(255) | YES  |     |         |         
+ item_note_info                | TEXT(65535)  | YES  |     |         |         
+ item_all_status               | VARCHAR(255) | YES  |     |         |         
+ item_list_flag                | VARCHAR(5)   | YES  |     |         |         
+ item_approve_status           | VARCHAR(255) | YES  |     |         |         
+ progress_front                | VARCHAR(255) | YES  |     |         |         
+ progress_back                 | VARCHAR(255) | YES  |     |         |         
+ sub_refuse_str                | TEXT(65535)  | YES  |     |         |         
+ head_refuse_str               | TEXT(65535)  | YES  |     |         |         
+ last_refuse_str               | TEXT(65535)  | YES  |     |         |         
+ item_pay_status               | VARCHAR(5)   | YES  |     |         |         
+ item_repay_status             | VARCHAR(5)   | YES  |     |         |         
+ item_prefix                   | VARCHAR(20)  | YES  |     |         |         
+-------------------------------+--------------+------+-----+---------+---------
+
+Table: t_loan_intent_info
+-----------------------+--------------+------+-----+---------+---------
+ Field                 | Type         | Null | Key | Default | Remarks 
+-----------------------+--------------+------+-----+---------+---------
+ ID                    | VARCHAR(50)  | NO   | PRI |         |         
+ name                  | VARCHAR(32)  | YES  |     |         |         
+ sex                   | VARCHAR(2)   | YES  |     |         |         
+ phone_number          | VARCHAR(32)  | YES  |     |         |         
+ age                   | VARCHAR(2)   | YES  |     |         |         
+ type                  | VARCHAR(2)   | YES  |     |         |         
+ email                 | VARCHAR(64)  | YES  |     |         |         
+ id_number             | VARCHAR(32)  | YES  |     |         |         
+ nationality           | VARCHAR(2)   | YES  |     |         |         
+ education             | VARCHAR(2)   | YES  |     |         |         
+ live_address          | VARCHAR(64)  | YES  |     |         |         
+ live_city             | VARCHAR(32)  | YES  |     |         |         
+ live_time             | VARCHAR(2)   | YES  |     |         |         
+ id_type               | VARCHAR(2)   | YES  |     |         |         
+ marital_status        | VARCHAR(50)  | YES  |     |         |         
+ req_number            | VARCHAR(32)  | YES  |     |         |         
+ req_loan_money        | VARCHAR(64)  | YES  |     |         |         
+ req_loan_time         | VARCHAR(2)   | YES  |     |         |         
+ req_loan_use          | VARCHAR(20)  | YES  |     |         |         
+ repayment_method      | VARCHAR(32)  | YES  |     |         |         
+ create_date           | DATETIME(19) | YES  |     |         |         
+ create_user           | VARCHAR(32)  | YES  |     |         |         
+ status                | VARCHAR(2)   | YES  |     |         |         
+ enterprise_name       | VARCHAR(30)  | YES  |     |         |         
+ enterprise_type       | VARCHAR(2)   | YES  |     |         |         
+ registration_number   | INT(10)      | YES  |     |         |         
+ registration_addres   | VARCHAR(30)  | YES  |     |         |         
+ legal_person_name     | VARCHAR(40)  | YES  |     |         |         
+ legal_identity_card   | VARCHAR(80)  | YES  |     |         |         
+ company_actual_addres | VARCHAR(30)  | YES  |     |         |         
+ loan_object           | VARCHAR(2)   | YES  |     |         |         
+ asset_type            | VARCHAR(50)  | YES  |     |         |         
+ issue_date            | DATETIME(19) | YES  |     |         |         
+ ticket_date           | DATETIME(19) | YES  |     |         |         
+ issue_amount          | VARCHAR(255) | YES  |     |         |         
+-----------------------+--------------+------+-----+---------+---------
+
+Table: t_message_content
+-------------+----------------------+------+-----+---------+---------
+ Field       | Type                 | Null | Key | Default | Remarks 
+-------------+----------------------+------+-----+---------+---------
+ id          | VARCHAR(32)          | NO   | PRI |         |         
+ baseinfo_id | VARCHAR(50)          | YES  |     |         |         
+ content     | LONGTEXT(2147483647) | YES  |     |         |         
+ creat_date  | VARCHAR(32)          | YES  |     |         |         
+ oredr_id    | VARCHAR(50)          | YES  |     |         |         
+ pram1       | VARCHAR(20)          | YES  |     |         |         
+ pram2       | VARCHAR(20)          | YES  |     |         |         
+ pram3       | VARCHAR(20)          | YES  |     |         |         
+ state       | VARCHAR(4)           | YES  |     |         |         
+-------------+----------------------+------+-----+---------+---------
+
+Table: t_message_push
+--------------+--------------+------+-----+---------+---------
+ Field        | Type         | Null | Key | Default | Remarks 
+--------------+--------------+------+-----+---------+---------
+ id           | VARCHAR(32)  | NO   | PRI |         |         
+ ticker       | VARCHAR(200) | YES  |     |         |         
+ title        | VARCHAR(200) | YES  |     |         |         
+ text         | TEXT(65535)  | YES  |     |         |         
+ create_date  | DATETIME(19) | YES  |     |         |         
+ create_user  | VARCHAR(32)  | YES  |     |         |         
+ update_date  | DATETIME(19) | YES  |     |         |         
+ update_user  | VARCHAR(32)  | YES  |     |         |         
+ publish_date | DATETIME(19) | YES  |     |         |         
+ is_del       | VARCHAR(4)   | YES  |     |         |         
+ status       | VARCHAR(4)   | YES  |     |         |         
+--------------+--------------+------+-----+---------+---------
+
+Table: t_order_info
+---------------------+--------------+------+-----+---------+---------
+ Field               | Type         | Null | Key | Default | Remarks 
+---------------------+--------------+------+-----+---------+---------
+ ID                  | VARCHAR(50)  | NO   | PRI |         |         
+ fk_item_id          | VARCHAR(50)  | YES  |     |         |         
+ item_number         | VARCHAR(32)  | YES  |     |         |         
+ order_number        | VARCHAR(50)  | YES  |     |         |         
+ serial_number       | VARCHAR(50)  | YES  |     |         |         
+ fk_base_info_id     | VARCHAR(50)  | YES  |     |         |         
+ fk_account_info_id  | VARCHAR(50)  | YES  |     |         |         
+ card_id             | VARCHAR(30)  | YES  |     |         |         
+ mobile_phone        | VARCHAR(20)  | YES  |     |         |         
+ capital             | VARCHAR(20)  | YES  |     |         |         
+ income              | VARCHAR(20)  | YES  |     |         |         
+ capital_income      | VARCHAR(20)  | YES  |     |         |         
+ pay_status          | VARCHAR(10)  | YES  |     |         |         
+ ip                  | VARCHAR(32)  | YES  |     |         |         
+ create_date         | DATETIME(19) | YES  |     |         |         
+ pay_date            | VARCHAR(20)  | YES  |     |         |         
+ order_complete_date | VARCHAR(20)  | YES  |     |         |         
+ pay_type            | VARCHAR(10)  | YES  |     |         |         
+ err_message         | VARCHAR(100) | YES  |     |         |         
+ deduction_fee       | VARCHAR(20)  | YES  |     |         |         
+ client_type         | VARCHAR(32)  | YES  |     |         |         
+ pay_mobie_phone     | VARCHAR(32)  | YES  |     |         |         
+---------------------+--------------+------+-----+---------+---------
+
+Table: t_orderlist
+---------------------+--------------+------+-----+---------+---------
+ Field               | Type         | Null | Key | Default | Remarks 
+---------------------+--------------+------+-----+---------+---------
+ ID                  | VARCHAR(50)  | NO   | PRI |         |         
+ fk_item_id          | VARCHAR(50)  | YES  |     |         |         
+ item_number         | VARCHAR(32)  | YES  |     |         |         
+ order_number        | VARCHAR(50)  | YES  |     |         |         
+ serial_number       | VARCHAR(50)  | YES  |     |         |         
+ fk_base_info_id     | VARCHAR(50)  | YES  |     |         |         
+ fk_account_info_id  | VARCHAR(50)  | YES  |     |         |         
+ card_id             | VARCHAR(30)  | YES  |     |         |         
+ mobile_phone        | VARCHAR(20)  | YES  |     |         |         
+ capital             | VARCHAR(20)  | YES  |     |         |         
+ income              | VARCHAR(20)  | YES  |     |         |         
+ capital_income      | VARCHAR(20)  | YES  |     |         |         
+ pay_status          | VARCHAR(10)  | YES  |     |         |         
+ ip                  | VARCHAR(32)  | YES  |     |         |         
+ create_date         | DATETIME(19) | YES  |     |         |         
+ pay_date            | VARCHAR(20)  | YES  |     |         |         
+ order_complete_date | VARCHAR(20)  | YES  |     |         |         
+ pay_type            | VARCHAR(10)  | YES  |     |         |         
+---------------------+--------------+------+-----+---------+---------
+
+Table: t_payment_port
+----------------------+--------------+------+-----+---------+---------
+ Field                | Type         | Null | Key | Default | Remarks 
+----------------------+--------------+------+-----+---------+---------
+ ID                   | VARCHAR(50)  | NO   | PRI |         |         
+ tx_code              | VARCHAR(4)   | YES  |     |         |         
+ institution_id       | VARCHAR(6)   | YES  |     |         |         
+ fk_order_id          | VARCHAR(50)  | YES  |     |         |         
+ serial_number        | VARCHAR(32)  | YES  |     |         |         
+ order_number         | VARCHAR(32)  | YES  |     |         |         
+ pay_ment_number      | VARCHAR(32)  | YES  |     |         |         
+ quick_payment_number | VARCHAR(32)  | YES  |     |         |         
+ amount               | VARCHAR(64)  | YES  |     |         |         
+ remark               | VARCHAR(96)  | YES  |     |         |         
+ account_code         | VARCHAR(32)  | YES  |     |         |         
+ account_name         | VARCHAR(30)  | YES  |     |         |         
+ acc_seq              | VARCHAR(4)   | YES  |     |         |         
+ eac_name             | VARCHAR(100) | YES  |     |         |         
+ eac_number           | VARCHAR(35)  | YES  |     |         |         
+ account_bank         | VARCHAR(100) | YES  |     |         |         
+ account_bank_id      | VARCHAR(4)   | YES  |     |         |         
+ province_code        | VARCHAR(2)   | YES  |     |         |         
+ province_name        | VARCHAR(32)  | YES  |     |         |         
+ city_code            | VARCHAR(6)   | YES  |     |         |         
+ city_name            | VARCHAR(32)  | YES  |     |         |         
+ sub_bank_id          | VARCHAR(100) | YES  |     |         |         
+ brdnbr               | VARCHAR(12)  | YES  |     |         |         
+ certificate_type     | VARCHAR(3)   | YES  |     |         |         
+ certificate_number   | VARCHAR(50)  | YES  |     |         |         
+ person_type          | VARCHAR(1)   | YES  |     |         |         
+ sig_time             | DATETIME(19) | YES  |     |         |         
+ check_type           | VARCHAR(1)   | YES  |     |         |         
+ content              | TEXT(65535)  | YES  |     |         |         
+ recontent            | TEXT(65535)  | YES  |     |         |         
+ status               | VARCHAR(4)   | YES  |     |         |         
+ exchange_status      | VARCHAR(4)   | YES  |     |         |         
+ exchange_message     | TEXT(65535)  | YES  |     |         |         
+----------------------+--------------+------+-----+---------+---------
+
+Table: t_person_account_info
+------------------------+--------------+------+-----+---------+---------
+ Field                  | Type         | Null | Key | Default | Remarks 
+------------------------+--------------+------+-----+---------+---------
+ ID                     | VARCHAR(32)  | NO   | PRI |         |         
+ account_name           | VARCHAR(50)  | YES  |     |         |         
+ account_code           | VARCHAR(50)  | YES  |     |         |         
+ card_number            | VARCHAR(64)  | YES  |     |         |         
+ card_bank              | VARCHAR(50)  | YES  |     |         |         
+ card_sub_bank          | VARCHAR(50)  | YES  |     |         |         
+ card_province          | VARCHAR(20)  | YES  |     |         |         
+ card_city              | VARCHAR(20)  | YES  |     |         |         
+ fk_base_info_id        | VARCHAR(50)  | YES  |     |         |         
+ create_date            | DATETIME(19) | YES  |     |         |         
+ bank_name              | VARCHAR(32)  | YES  |     |         |         
+ province_name          | VARCHAR(32)  | YES  |     |         |         
+ city_name              | VARCHAR(32)  | YES  |     |         |         
+ binding_state          | VARCHAR(50)  | YES  |     |         |         
+ binding_mobie_phone    | VARCHAR(32)  | YES  |     |         |         
+ binding_number         | VARCHAR(32)  | YES  |     |         |         
+ binding_time           | VARCHAR(32)  | YES  |     |         |         
+ bingding_client_type   | VARCHAR(32)  | YES  |     |         |         
+ fail_reason            | VARCHAR(120) | YES  |     |         |         
+ unbundling_client_type | VARCHAR(32)  | YES  |     |         |         
+ unbundling_time        | VARCHAR(32)  | YES  |     |         |         
+------------------------+--------------+------+-----+---------+---------
+
+Table: t_person_prize
+-----------------+--------------+------+-----+---------+---------
+ Field           | Type         | Null | Key | Default | Remarks 
+-----------------+--------------+------+-----+---------+---------
+ ID              | VARCHAR(32)  | NO   | PRI |         |         
+ prize_name      | VARCHAR(100) | YES  |     |         |         
+ prize_amount    | DECIMAL(10)  | YES  |     |         |         
+ prize_grade     | VARCHAR(8)   | YES  |     |         |         
+ prize_type      | VARCHAR(8)   | YES  |     |         |         
+ start_use_time  | DATETIME(19) | YES  |     |         |         
+ end_use_time    | DATETIME(19) | YES  |     |         |         
+ use_time        | DATETIME(19) | YES  |     |         |         
+ create_time     | DATETIME(19) | YES  |     |         |         
+ fk_base_info_id | VARCHAR(32)  | YES  |     |         |         
+ activity_type   | VARCHAR(8)   | YES  |     |         |         
+ status          | VARCHAR(8)   | YES  |     |         |         
+-----------------+--------------+------+-----+---------+---------
+
+Table: t_repay_clear_list
+------------------------+--------------+------+-----+---------+---------
+ Field                  | Type         | Null | Key | Default | Remarks 
+------------------------+--------------+------+-----+---------+---------
+ ID                     | VARCHAR(32)  | NO   | PRI |         |         
+ bank_account           | VARCHAR(50)  | YES  |     |         |         
+ bank_card_no           | VARCHAR(80)  | YES  |     |         |         
+ bank_code              | VARCHAR(30)  | YES  |     |         |         
+ bank_name              | VARCHAR(80)  | YES  |     |         |         
+ branch_bank            | VARCHAR(50)  | YES  |     |         |         
+ card_province_code     | VARCHAR(30)  | YES  |     |         |         
+ card_province_name     | VARCHAR(50)  | YES  |     |         |         
+ card_city_no           | VARCHAR(30)  | YES  |     |         |         
+ card_city_name         | VARCHAR(50)  | YES  |     |         |         
+ order_status           | VARCHAR(5)   | YES  |     |         |         
+ base_info_id           | VARCHAR(50)  | YES  |     |         |         
+ Item_id                | VARCHAR(50)  | YES  |     |         |         
+ item_name              | VARCHAR(50)  | YES  |     |         |         
+ item_no                | VARCHAR(50)  | YES  |     |         |         
+ serial_number          | VARCHAR(50)  | YES  |     |         |         
+ order_number           | VARCHAR(50)  | YES  |     |         |         
+ invest_date            | DATETIME(19) | YES  |     |         |         
+ invest_mount_fee       | DECIMAL(10)  | YES  |     |         |         
+ income                 | DECIMAL(10)  | YES  |     |         |         
+ rate                   | DECIMAL(10)  | YES  |     |         |         
+ principal_and_interest | DECIMAL(10)  | YES  |     |         |         
+ interest_start_date    | DATETIME(19) | YES  |     |         |         
+ finance_end_date       | DATETIME(19) | YES  |     |         |         
+ pay_date               | VARCHAR(20)  | YES  |     |         |         
+ order_complete_date    | VARCHAR(20)  | YES  |     |         |         
+ pay_type               | VARCHAR(10)  | YES  |     |         |         
+ repay_date             | DATETIME(19) | YES  |     |         |         
+ item_prefix            | VARCHAR(20)  | YES  |     |         |         
+------------------------+--------------+------+-----+---------+---------
+
+Table: t_role_menu
+-------------+-------------+------+-----+---------+---------
+ Field       | Type        | Null | Key | Default | Remarks 
+-------------+-------------+------+-----+---------+---------
+ ID          | VARCHAR(32) | NO   | PRI |         |         
+ sys_role_id | VARCHAR(32) | YES  |     |         |         
+ sys_menu_id | VARCHAR(32) | YES  |     |         |         
+-------------+-------------+------+-----+---------+---------
+
+Table: t_send_fail_info
+----------------------+--------------+------+-----+---------+---------
+ Field                | Type         | Null | Key | Default | Remarks 
+----------------------+--------------+------+-----+---------+---------
+ ID                   | VARCHAR(32)  | NO   | PRI |         |         
+ fk_batch_send_sms_id | VARCHAR(32)  | YES  |     |         |         
+ mobile               | VARCHAR(20)  | YES  |     |         |         
+ fail_reason          | TEXT(65535)  | YES  |     |         |         
+ create_time          | DATETIME(19) | YES  |     |         |         
+----------------------+--------------+------+-----+---------+---------
+
+Table: t_settlement_port
+-----------------------+--------------+------+-----+---------+---------
+ Field                 | Type         | Null | Key | Default | Remarks 
+-----------------------+--------------+------+-----+---------+---------
+ ID                    | VARCHAR(50)  | NO   | PRI |         |         
+ tx_code               | VARCHAR(4)   | YES  |     |         |         
+ institution_id        | VARCHAR(6)   | YES  |     |         |         
+ fk_order_id           | VARCHAR(50)  | YES  |     |         |         
+ serial_number         | VARCHAR(32)  | YES  |     |         |         
+ order_number          | VARCHAR(32)  | YES  |     |         |         
+ payment_serial_number | VARCHAR(32)  | YES  |     |         |         
+ quick_payment_number  | VARCHAR(32)  | YES  |     |         |         
+ amount                | VARCHAR(64)  | YES  |     |         |         
+ remark                | VARCHAR(96)  | YES  |     |         |         
+ settlement_type       | VARCHAR(2)   | YES  |     |         |         
+ order_type            | VARCHAR(2)   | YES  |     |         |         
+ account_code          | VARCHAR(32)  | YES  |     |         |         
+ account_name          | VARCHAR(30)  | YES  |     |         |         
+ acc_seq               | VARCHAR(4)   | YES  |     |         |         
+ eac_name              | VARCHAR(100) | YES  |     |         |         
+ eac_number            | VARCHAR(35)  | YES  |     |         |         
+ account_bank          | VARCHAR(100) | YES  |     |         |         
+ account_bank_id       | VARCHAR(4)   | YES  |     |         |         
+ province_code         | VARCHAR(2)   | YES  |     |         |         
+ province_name         | VARCHAR(32)  | YES  |     |         |         
+ city_code             | VARCHAR(6)   | YES  |     |         |         
+ city_name             | VARCHAR(32)  | YES  |     |         |         
+ sub_bank_id           | VARCHAR(100) | YES  |     |         |         
+ brdnbr                | VARCHAR(30)  | YES  |     |         |         
+ certificate_type      | VARCHAR(3)   | YES  |     |         |         
+ certificate_number    | VARCHAR(50)  | YES  |     |         |         
+ person_type           | VARCHAR(1)   | YES  |     |         |         
+ sig_time              | DATETIME(19) | YES  |     |         |         
+ check_type            | VARCHAR(1)   | YES  |     |         |         
+ content               | TEXT(65535)  | YES  |     |         |         
+ recontent             | TEXT(65535)  | YES  |     |         |         
+ pay_status            | VARCHAR(4)   | YES  |     |         |         
+ repay_status          | VARCHAR(4)   | YES  |     |         |         
+ exchange_status       | VARCHAR(4)   | YES  |     |         |         
+ exchange_message      | TEXT(65535)  | YES  |     |         |         
+ finance_id            | VARCHAR(32)  | YES  |     |         |         
+ repay_id              | VARCHAR(32)  | YES  |     |         |         
+-----------------------+--------------+------+-----+---------+---------
+
+Table: t_sms_info
+-----------------------------+----------------------+------+-----+---------+---------
+ Field                       | Type                 | Null | Key | Default | Remarks 
+-----------------------------+----------------------+------+-----+---------+---------
+ sms_id                      | VARCHAR(32)          | NO   | PRI |         |         
+ auth_code                   | VARCHAR(12)          | YES  |     |         |         
+ content                     | LONGTEXT(2147483647) | YES  |     |         |         
+ encode_str                  | LONGTEXT(2147483647) | YES  |     |         |         
+ fk_order_info_serial_number | VARCHAR(40)          | YES  |     |         |         
+ ip                          | VARCHAR(20)          | YES  |     |         |         
+ message_type                | VARCHAR(20)          | YES  |     |         |         
+ mobile_phone                | VARCHAR(60)          | YES  |     |         |         
+ oper_id                     | VARCHAR(50)          | YES  |     |         |         
+ return_code                 | VARCHAR(10)          | YES  |     |         |         
+ send_flag                   | VARCHAR(10)          | YES  |     |         |         
+ send_time                   | VARCHAR(19)          | YES  |     |         |         
+ valid_time                  | VARCHAR(19)          | YES  |     |         |         
+-----------------------------+----------------------+------+-----+---------+---------
+
+Table: t_sys_menu
+-------+-------------+------+-----+---------+---------
+ Field | Type        | Null | Key | Default | Remarks 
+-------+-------------+------+-----+---------+---------
+ ID    | VARCHAR(32) | NO   | PRI |         |         
+ name  | VARCHAR(30) | YES  |     |         |         
+ leaf  | VARCHAR(8)  | YES  |     |         |         
+ pid   | VARCHAR(32) | YES  |     |         |         
+-------+-------------+------+-----+---------+---------
+
+Table: t_sys_notice
+----------------+----------------------+------+-----+---------+---------
+ Field          | Type                 | Null | Key | Default | Remarks 
+----------------+----------------------+------+-----+---------+---------
+ ID             | VARCHAR(32)          | NO   | PRI |         |         
+ notice_title   | VARCHAR(50)          | YES  |     |         |         
+ notice_context | MEDIUMTEXT(16777215) | YES  |     |         |         
+ create_date    | DATETIME(19)         | YES  |     |         |         
+ create_user    | VARCHAR(30)          | YES  |     |         |         
+ image_url      | TEXT(65535)          | YES  |     |         |         
+ is_del         | VARCHAR(2)           | YES  |     |         |         
+----------------+----------------------+------+-----+---------+---------
+
+Table: t_sys_role
+-----------+-------------+------+-----+---------+---------
+ Field     | Type        | Null | Key | Default | Remarks 
+-----------+-------------+------+-----+---------+---------
+ ID        | VARCHAR(32) | NO   | PRI |         |         
+ role_name | VARCHAR(30) | YES  |     |         |         
+ role_code | VARCHAR(10) | YES  |     |         |         
+ remark    | VARCHAR(30) | YES  |     |         |         
+-----------+-------------+------+-----+---------+---------
+
+Table: t_sys_user
+---------------+--------------+------+-----+---------+---------
+ Field         | Type         | Null | Key | Default | Remarks 
+---------------+--------------+------+-----+---------+---------
+ ID            | VARCHAR(32)  | NO   | PRI |         |         
+ user_name     | VARCHAR(60)  | YES  |     |         |         
+ mobile_phone  | VARCHAR(15)  | YES  |     |         |         
+ sub_bank_code | VARCHAR(30)  | YES  |     |         |         
+ sub_bank_name | VARCHAR(50)  | YES  |     |         |         
+ password      | VARCHAR(60)  | YES  |     |         |         
+ create_time   | DATETIME(19) | YES  |     |         |         
+ sys_role_id   | VARCHAR(32)  | YES  |     |         |         
+---------------+--------------+------+-----+---------+---------
+
+Table: t_used_award_info
+-----------------+--------------+------+-----+---------+---------
+ Field           | Type         | Null | Key | Default | Remarks 
+-----------------+--------------+------+-----+---------+---------
+ ID              | VARCHAR(32)  | NO   | PRI |         |         
+ fk_base_info_id | VARCHAR(50)  | YES  |     |         |         
+ fk_order_id     | VARCHAR(50)  | YES  |     |         |         
+ fk_award_id     | VARCHAR(50)  | YES  |     |         |         
+ used_coin_num   | VARCHAR(10)  | YES  |     |         |         
+ create_time     | DATETIME(19) | YES  |     |         |         
+ invalid_time    | DATETIME(19) | YES  |     |         |         
+ is_valid        | VARCHAR(10)  | YES  |     |         |         
+ client_type     | VARCHAR(20)  | YES  |     |         |         
+-----------------+--------------+------+-----+---------+---------
+
+Table: t_user_role
+-------------+-------------+------+-----+---------+---------
+ Field       | Type        | Null | Key | Default | Remarks 
+-------------+-------------+------+-----+---------+---------
+ ID          | VARCHAR(32) | NO   | PRI |         |         
+ sys_user_id | VARCHAR(32) | YES  |     |         |         
+ sys_role_id | VARCHAR(32) | YES  |     |         |         
+-------------+-------------+------+-----+---------+---------
+
+Table: t_whitelists_info
+-------------+--------------+------+-----+---------+---------
+ Field       | Type         | Null | Key | Default | Remarks 
+-------------+--------------+------+-----+---------+---------
+ ID          | VARCHAR(32)  | NO   | PRI |         |         
+ white_name  | VARCHAR(50)  | YES  |     |         |         
+ create_date | DATETIME(19) | YES  |     |         |         
+ wt_item_id  | VARCHAR(50)  | YES  |     |         |         
+ white_list  | VARCHAR(50)  | YES  |     |         |         
+ ip          | VARCHAR(50)  | YES  |     |         |         
+ note1       | VARCHAR(50)  | YES  |     |         |         
+ note2       | VARCHAR(50)  | YES  |     |         |         
+ note3       | VARCHAR(50)  | YES  |     |         |         
+ max_limit   | VARCHAR(50)  | YES  |     |         |         
+-------------+--------------+------+-----+---------+---------
+

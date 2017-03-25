@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+.reg_section{width:1050px;margin:0 auto 15%;}
+.reg_section .reg{margin:20px 0 15px 27px;font-size:22px;color:#858585;position:relative;}
+.reg_section .reg i{position:absolute;top:-5px;}
+.reg_section .reg em{padding-left:36px;}
+.reg_main{width:860px;height:auto;background-color:#fff;padding-left:190px;padding-top:50px;padding-bottom:85px;margin-bottom:50px;}
+.reg_main .table_5 th{width:11%;}
+.reg_main .table_5 td{padding:12px 0;}
+.reg_main .table_5 th .ui-icon{font-size:18px;color:#333;font-family:"微软雅黑";font-weight:normal;}
+.reg_head h3{width:100%;height:50px;background:url(../images/reg1.png) no-repeat;}
+.reg_head1 h3{width:100%;height:50px;background:url(../images/reg2.png) no-repeat;}
+.reg_head2 h3{width:100%;height:50px;background:url(../images/reg3.png) no-repeat;}
+.reg_main .suc{font-size:36px;color:#333;line-height:100px;font-family:"宋体";overflow:hidden;}
+.reg_main .suc i{float:left;padding-right:30px;margin-left:15%;}
+.suc_btn{width:216px;height:50px;background-color:#d84124;border-radius:5px;text-align:center;line-height:50px;margin-left:30%;}
+.suc_btn a{font-size:24px;color:#fff;display:block;}
+.return{margin-left:39%;margin-top:28px;}
+.return a{font-size:18px;color:#00bffe;}
+
+/*绑定银行卡*/
+.table_5 th .ui-icon{font-size:14px;}
+
+.container{width:960px;margin:0 auto;}
+
+.login-wrap{width:960px;margin:0 auto;height:0px;position:relative;z-index:2;border:0px;}
+.w-300{width:235px;}
+.ui-form{ font-family: "Microsoft YaHei";}
+.login-ui-input{background:#FFF;border:solid 1px #ca9231;width:200px;height:40px;line-height:40px;font-size:16px;color:#ccc;font-family:"Microsoft YaHei";border-radius:2px; padding-left:60px;}
+.login-ui-input2{background:#FFF;border:solid 1px #e2e2e2;height:40px; line-height:40px;font-size:14px;color:#ccc;font-family:"Microsoft YaHei";border-radius:4px;text-indent:0.5em;width:190px;}
+.ui-form-item{ position:relative;}
+.ui-form-item i{position:absolute;top:0;left:211px;}
+.ui-form-item .button-yzm{width:145px;height:38px;background:#ffe8aa;border:0px;margin:0 0 0 25px;color:#c79100;padding:0 10px;cursor:pointer;font-size:14px;}
+.ui-form-item .button-yzm:hover{background:#ffd78f}
+.ui-form-item .button-disabled{height:42px;background:#bcbcbc;border:0px;margin:0 0 0 20px;border-radius:3px;color:#777;padding:0 10px;cursor:pointer;font-size:14px;}
+.ui-form-item .ui-tips{height:40px;line-height:40px;float:left;margin:0 0 0 8px;color:#999;font-size:12px;padding-left:30px;}
+.ui-form-item .ui-tips-text{padding:0;color:#999;}
+.ui-form-item .f-6{color:#666;}
+.ui-form-item .ui-tips-login{padding:0;}
+.ui-form-item .tips-error{background:url(../images/icon_c.png) left center no-repeat;color:#f10;}
+.ui-form-item .tips-ok{width:50px;background:url(../images/icon_o.png) left center no-repeat}
+.login-form .ui-form-item .ui-tips{height:28px;line-height:28px;color:#F00;font-size:14px;}
+.login .ui-icon{width:48px;height:40px; position:absolute;left:1px;top:1px;*top:2px;background-color:#ffecca;border-radius:2px}
+.ui-form-item .info-other{font-size:14px;}
+.ui-form-item span.icon-mm{ background-position:-43px 4px;}
+.ui-form-item span.icon-mb{ background-position:5px 4px;}
+.ui-form-item span.icon-yz{ background-position:-59px -295px;}
+.ui-form-item .login-note{position:absolute;top:10px;left:60px;color:#ccc;font-size:16px;}
+.ui-form-item .login-tips-text{ position:absolute;left:10px;color:#ccc;font-size:14px;}
+.lg-submit-btn{color:#fff; background:#d84124;border:none;height:50px;width:357px;font-size:24px;font-family:"Microsoft YaHei";border-radius:4px;}
+.ui-form-item .lg-form-other{font-size:18px;color:#333;margin:20px 0;text-align:left; }
+.ui-form-item .lg-form-other a.textlink{color:#d84124;}
+.reg-form .ui-label{width:135px;height:auto;text-align:right}
+.reg-form .ui-label .ui-icon{padding-left:5px;}
+.reg-form .ui-label .yz{padding-left:0;}
+.reg-form .ui-label .yy{padding-left:36px;}
+.complete-name{margin:50px; overflow:hidden;border-bottom:dashed 0px #ccc;padding:0 0 30px 0; }
+.ui-form-register .tips{font-size:24px;color:#f6ab00;padding:30px 0;text-align:center}
+.lg-username{position:relative;margin-bottom:10px;}
+.ui-input-box{ position:relative;}
+
+/*.on-focus{border:1px solid #ffc257;box-shadow:0 0 2px #ffc257;color:#666;}*/
+.on-error{border:1px solid #fe6e7c;box-shadow:0 0 2px #fe6e7c;color:#666;}
+
+/*密码强度*/
+.ui-pwdstreng{ position:absolute;left:100px;top:41px; height:20px; line-height:20px; font-size:12px; width:200px; display:none}
+.ui-pwdstreng span{ background:url(../images/pwdstrength.png) left top no-repeat; height:13px; line-height:13px; width:104px; overflow:hidden; position:absolute;left:65px;top:4px; display:none;}
+.ui-pwdstreng.f1{ display:block}
+.ui-pwdstreng.f2{display:block}
+.ui-pwdstreng.f3{display:block}
+.ui-pwdstreng.f1 span{ background-position:0 0; display:block}
+.ui-pwdstreng.f2 span{ background-position: 0 -13px; display:block}
+.ui-pwdstreng.f3 span{ background-position: 0 -26px; display:block}
+
+
+.yzm{position: absolute; top:20px;left:177px;}
+

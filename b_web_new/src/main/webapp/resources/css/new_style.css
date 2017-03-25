@@ -1,0 +1,8 @@
+
+/* 注册页面样式*/
+.ui-register ,.ui-companyregister ,.ui-personregister  ,.ui-selectperson ,.ui-personregister{ background-image:url(../images/icon.png);background-position:-999px 0;background-repeat:no-repeat; display:block; width:90px; height:34px; float:left; line-height:34px; margin-right:10px; padding-left:40px;}
+.ui-companyregister {border:1px solid #666; color:#666;  background-position:15px -420px; } 
+.ui-selectcompany {border:1px solid #0093FF; color:#0093FF; background-position:15px -474px; }
+.ui-personregister { border:1px solid #666; color:#666;  background-position:15px -395px;}
+.ui-selectperson {border:1px solid #FF393C; color:#FF393C;  background-position:15px -448px;}
+

@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+.bc{ width:1086px; height:auto; background:url(../images/404_01.jpg) center 85px no-repeat; margin:auto;}
+.bc span{ display:block; width:1086px; font-size:18px; color:#808080; padding-top:360px; text-align:center; font-family:"微软雅黑";}
+.gn{ width:1086px; height:auto; overflow:hidden; margin:auto; text-align:center; margin-top:43px;}
+.gn a{ color:#3669ea; padding-left:20px; margin-right:30px; text-decoration:none;}
+.gn a:hover{ color:#999;}
+
+.bc2{ width:1086px; height:auto; background:url(../images/404_02.jpg) center 85px no-repeat; margin:auto;}
+.bc2 span{ display:block; width:1086px; font-size:18px; color:#808080; padding-top:360px; text-align:center; font-family:"微软雅黑";}
+.bc2 p{ font-size:12px; color:#666; text-align:center; font-family:"宋体";}
+.bc2 a{ font-size:12px; color:#3669ea;}

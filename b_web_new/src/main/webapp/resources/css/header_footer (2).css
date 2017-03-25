@@ -1,0 +1,666 @@
+.header_nav A {
+	BACKGROUND: url(../images/header.png) no-repeat -999px 0px
+}
+.ui-tel {
+	BACKGROUND: url(../images/header.png) no-repeat -999px 0px
+}
+.ui-app {
+	BACKGROUND: url(../images/header.png) no-repeat -999px 0px
+}
+.mainNav-arrow {
+	BACKGROUND: url(../images/header.png) no-repeat -999px 0px
+}
+.footer-contact TABLE A {
+	BACKGROUND: url(../images/header.png) no-repeat -999px 0px
+}
+.page-name {
+	BACKGROUND: url(../images/header.png) no-repeat -999px 0px
+}
+.step-text I {
+	BACKGROUND: url(../images/header.png) no-repeat -999px 0px
+}
+.project-box A {
+	BACKGROUND: url(../images/header.png) no-repeat -999px 0px
+}
+.user-info A.ui-icon {
+	BACKGROUND: url(../images/header.png) no-repeat -999px 0px
+}
+.investment-banke {
+	BACKGROUND: url(../images/header.png) no-repeat -999px 0px
+}
+.myproject-list .project_again SPAN {
+	BACKGROUND: url(../images/header.png) no-repeat -999px 0px
+}
+.project-status SPAN {
+	BACKGROUND: url(../images/header.png) no-repeat -999px 0px
+}
+.pro-title .pro-suc {
+	BACKGROUND: url(../images/header.png) no-repeat -999px 0px
+}
+.step-back I {
+	BACKGROUND: url(../images/header.png) no-repeat -999px 0px
+}
+.ui-goback A {
+	BACKGROUND: url(../images/header.png) no-repeat -999px 0px
+}
+.project-end SPAN {
+	BACKGROUND: url(../images/header.png) no-repeat -999px 0px
+}
+.project-audit SPAN {
+	BACKGROUND: url(../images/header.png) no-repeat -999px 0px
+}
+.icon-error {
+	BACKGROUND: url(../images/button.png) no-repeat -999px 0px
+}
+.lg-submit-btn {
+	BACKGROUND: url(../images/button.png) no-repeat -999px 0px
+}
+.reg-box INPUT.ui-button-text {
+	BACKGROUND: url(../images/button.png) no-repeat -999px 0px
+}
+.reg-box INPUT.ui-code-get {
+	BACKGROUND: url(../images/button.png) no-repeat -999px 0px
+}
+.reg-box INPUT.ui-code-sent {
+	BACKGROUND: url(../images/button.png) no-repeat -999px 0px
+}
+.reg-error B.icon-error {
+	BACKGROUND: url(../images/button.png) no-repeat -999px 0px
+}
+.tips-correct {
+	BACKGROUND: url(../images/button.png) no-repeat -999px 0px
+}
+.ui-form-name INPUT.ui-button-text {
+	BACKGROUND: url(../images/button.png) no-repeat -999px 0px
+}
+.calculator-add .tips-correct {
+	BACKGROUND: url(../images/button.png) no-repeat -999px 0px
+}
+.bank-add-box H3 A.close {
+	BACKGROUND: url(../images/button.png) no-repeat -999px 0px
+}
+.ui-icon {
+	BACKGROUND: url(../images/icon.png) no-repeat -999px 0px
+}
+.ui-tips {
+	BACKGROUND: url(../images/icon.png) no-repeat -999px 0px
+}
+.mod-hot-news .news-list {
+	BACKGROUND: url(../images/icon.png) no-repeat -999px 0px
+}
+.cell-item-icon {
+	BACKGROUND: url(../images/icon.png) no-repeat -999px 0px
+}
+.add {
+	BACKGROUND: url(../images/icon.png) no-repeat -999px 0px
+}
+.del {
+	BACKGROUND: url(../images/icon.png) no-repeat -999px 0px
+}
+.clock {
+	BACKGROUND: url(../images/icon.png) no-repeat -999px 0px
+}
+.result-icon {
+	BACKGROUND: url(../images/icon.png) no-repeat -999px 0px
+}
+.ui-form-item SPAN {
+	BACKGROUND: url(../images/icon.png) no-repeat -999px 0px
+}
+.ui-ban {
+	BACKGROUND: url(../images/icon.png) no-repeat -999px 0px
+}
+.ui-correct {
+	BACKGROUND: url(../images/icon.png) no-repeat -999px 0px
+}
+.ui-input-box .icon-error {
+	BACKGROUND: url(../images/icon.png) no-repeat -999px 0px
+}
+.ui-input-box .icon-correct {
+	BACKGROUND: url(../images/icon.png) no-repeat -999px 0px
+}
+.w-980 {
+	WIDTH: 980px; MARGIN: 0px auto
+}
+.top-bar {
+	OVERFLOW: hidden; HEIGHT: 45px; WIDTH: 100%; BACKGROUND: url(../images/top_bar_bg.jpg) repeat-x; POSITION: fixed; Z-INDEX: 999
+}
+.topbar-wrap {
+	OVERFLOW: hidden; HEIGHT: 35px; WIDTH: 1086px; BACKGROUND: #113d77; COLOR: #d0d8e6; MARGIN: 0px auto; LINE-HEIGHT: 45px
+}
+#sy-topbar-wrap {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #113d77
+}
+.topbar-wrap SPAN {
+	HEIGHT: 45px
+}
+.header_nav {
+	MARGIN-RIGHT: 24px
+}
+.header_nav UL LI {
+	FLOAT: left
+}
+.header_nav UL LI A {
+	COLOR: #d0d8e6
+}
+#header_nav UL LI A {
+	COLOR: #113d77
+}
+.header_nav UL LI A:hover {
+	COLOR: #ffea00
+}
+#header_nav UL LI A:hover {
+	COLOR: #f00
+}
+.header_nav UL LI B {
+	FONT-FAMILY: "simsun"; FONT-WEIGHT: 400; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 13px; PADDING-RIGHT: 13px
+}
+.header_nav UL LI A.icon_xl {
+	HEIGHT: 35px; WIDTH: 19px; BACKGROUND-POSITION: 0px -26px; MARGIN-LEFT: 8px; DISPLAY: block
+}
+.header_nav UL LI A#icon_xl {
+	HEIGHT: 35px; WIDTH: 19px; BACKGROUND: url(../images/header3.png) no-repeat 0px -26px; MARGIN-LEFT: 8px; DISPLAY: block
+}
+.header_nav UL LI A.icon_xl:hover {
+	BACKGROUND-POSITION: 0px -56px
+}
+.header_nav UL LI A#icon_xl:hover {
+	BACKGROUND-POSITION: 0px -56px
+}
+.header_nav UL LI A.icon_wx {
+	HEIGHT: 35px; WIDTH: 19px; BACKGROUND-POSITION: -28px -16px; MARGIN-LEFT: 8px; DISPLAY: block
+}
+.header_nav UL LI A.icon_wx {
+	HEIGHT: 35px; WIDTH: 19px; BACKGROUND: url(../images/header3.png) no-repeat -28px -11px; MARGIN-LEFT: 8px; DISPLAY: block
+}
+.header_nav UL LI A.icon_wx:hover {
+	BACKGROUND-POSITION: -28px -51px
+}
+.header_nav UL LI A#icon_wx:hover {
+	BACKGROUND-POSITION: -28px -51px
+}
+.header_nav UL LI A.icon_qq {
+	HEIGHT: 35px; WIDTH: 19px; BACKGROUND-POSITION: -57px -11px; MARGIN-LEFT: 8px; DISPLAY: block
+}
+.header_nav UL LI A.icon_qq:hover {
+	BACKGROUND-POSITION: -57px -51px
+}
+.ui-favorite {
+	BACKGROUND: url(../images/icon_fav.png) no-repeat left center; PADDING-LEFT: 23px
+}
+.ui-favorite2 {
+	BACKGROUND: url(../images/icon_fav2.png) no-repeat left center; PADDING-LEFT: 23px
+}
+.ui-tel {
+	FONT-FAMILY: Arial; BACKGROUND: url(../images/header3.png) no-repeat 55px 0px; FONT-WEIGHT: bold; PADDING-BOTTOM: 2px; PADDING-LEFT: 83px
+}
+.ui-app {
+	BACKGROUND-POSITION: -108px 10px; PADDING-LEFT: 20px
+}
+.welcome {
+	MARGIN-LEFT: 10px
+}
+.header {
+	PADDING-TOP: 45px; _padding-top: 0px
+}
+.header-bg {
+	MARGIN-BOTTOM: 0px; WIDTH: 100%; BACKGROUND: #fff; BORDER-BOTTOM: #dce3eb 2px solid
+}
+.header-wrap {
+	HEIGHT: 72px; WIDTH: 1086px; MARGIN: 0px auto
+}
+#main-nav {
+	HEIGHT: auto; RIGHT: 0px; POSITION: relative; FLOAT: right; TOP: 2px
+}
+#main-nav UL LI {
+	FONT-SIZE: 16px; WIDTH: 110px; POSITION: relative; FLOAT: left; TEXT-ALIGN: center
+}
+#main-nav UL LI A.sy-a {
+	HEIGHT: 35px; COLOR: #666; MARGIN-TOP: 18px; DISPLAY: block; LINE-HEIGHT: 35px; border-radius: 20px
+}
+#main-nav UL LI A.sy-a:hover {
+	BACKGROUND: url(../images/nav_bg.jpg) no-repeat center center; COLOR: #fff
+}
+#main-nav .current A.sy-a {
+	BACKGROUND: url(../images/nav_bg.jpg) no-repeat center center; COLOR: #fff
+}
+.sub-mainNav {
+	FONT-SIZE: 14px; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; BACKGROUND: #fff; BORDER-BOTTOM: #ccc 1px solid; POSITION: absolute; PADDING-BOTTOM: 22px; TEXT-ALIGN: center; LEFT: 10px; BORDER-LEFT: #ccc 1px solid; Z-INDEX: 1000; DISPLAY: none; TOP: 70px
+}
+.sub-mainNav LI A {
+	OVERFLOW: hidden; HEIGHT: 20px; WIDTH: auto; COLOR: #737373; DISPLAY: block
+}
+.sub-mainNav A:hover {
+	BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-TOP-WIDTH: 0px
+}
+.gray-bg {
+	BACKGROUND: #f3f3f3
+}
+.page-name {
+	FONT-SIZE: 24px; HEIGHT: 35px; FONT-FAMILY: "Microsoft YaHei"; BACKGROUND-POSITION: -389px -2px; COLOR: #999; PADDING-BOTTOM: 0px; PADDING-TOP: 5px; PADDING-LEFT: 15px; MARGIN: 20px 0px 0px; PADDING-RIGHT: 0px
+}
+.login-header {
+	WIDTH: 980px; PADDING-BOTTOM: 15px; PADDING-TOP: 15px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.top-logo-box {
+	HEIGHT: 70px; BACKGROUND: #fff; BORDER-BOTTOM: #dce3eb 2px solid; PADDING-BOTTOM: 0px; PADDING-TOP: 35px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.top-logo-inner {
+	HEIGHT: 70px; WIDTH: 990px; POSITION: relative; MARGIN: 0px auto
+}
+.logo {
+	FONT-SIZE: 16px; FONT-FAMILY: "ºÚÌå"; FLOAT: left; FONT-WEIGHT: bold; COLOR: #fff; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 12px 0px 0px; PADDING-RIGHT: 0px
+}
+.logo SPAN {
+	VERTICAL-ALIGN: middle; PADDING-TOP: 12px; PADDING-LEFT: 2px
+}
+.logo A {
+	BORDER-RIGHT: #e5e5e5 1px solid; PADDING-BOTTOM: 15px; PADDING-TOP: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 15px; MARGIN-RIGHT: 10px
+}
+.logo IMG {
+	VERTICAL-ALIGN: middle
+}
+.top-logo-box .slogan {
+	FONT-SIZE: 18px; FONT-FAMILY: "Microsoft YaHei"; FLOAT: left; COLOR: #666; PADDING-BOTTOM: 0px; PADDING-TOP: 20px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.top-logo-box .mainNav {
+	RIGHT: 0px; POSITION: absolute; BOTTOM: -4px
+}
+.top-logo-box .mainNav UL {
+	BACKGROUND: url(../images/fenge_2.png) no-repeat left top; FLOAT: right; PADDING-LEFT: 2px
+}
+.top-logo-box .mainNav UL LI {
+	HEIGHT: 40px; BACKGROUND: url(../images/fenge_2.png) no-repeat right top; FLOAT: right
+}
+.top-logo-box .mainNav UL LI A {
+	FONT-SIZE: 16px; HEIGHT: 40px; FONT-FAMILY: "Microsoft YaHei"; WIDTH: 120px; TEXT-ALIGN: center; DISPLAY: block; LINE-HEIGHT: 40px
+}
+.top-logo-box .mainNav UL LI.current {
+	BACKGROUND: url(../images/arrow_1.png) no-repeat center bottom
+}
+.top-logo-box .mainNav UL LI.current-2 {
+	BACKGROUND: url(../images/arrow_2.png) no-repeat center bottom
+}
+.top-logo-box .mainNav UL LI.current A {
+	COLOR: #005ca1
+}
+.top-logo-box .mainNav UL LI.current-2 A {
+	COLOR: #005ca1
+}
+.top-logo-box .tel {
+	RIGHT: 10px; POSITION: absolute; COLOR: #666; TOP: 36px
+}
+.top-logo-box H3 {
+	MARGIN-BOTTOM: 5px; FONT-SIZE: 18px; FONT-FAMILY: "Microsoft YaHei"; FONT-WEIGHT: 400; FONT-STYLE: italic
+}
+.top-logo-box H3 SPAN {
+	FONT-SIZE: 20px; COLOR: #4879b5
+}
+.mod-partner {
+	BACKGROUND: #f0f3f7; MARGIN-TOP: 20px
+}
+.mod-partner-wrap {
+	OVERFLOW: hidden; HEIGHT: 65px; WIDTH: 1086px; MARGIN: 0px auto
+}
+.mod-partner-wrap SPAN {
+	FONT-SIZE: 14px; FONT-WEIGHT: 700; COLOR: #666; LINE-HEIGHT: 65px
+}
+.mod-partner-wrap .mod-list LI {
+	FLOAT: left; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px
+}
+.mod-footer {
+	BACKGROUND: #dedede; MIN-HEIGHT: 270px; MARGIN-TOP: 15px
+}
+.footer-wrap {
+	OVERFLOW: hidden; WIDTH: 1086px; POSITION: relative; MARGIN: 0px auto
+}
+.ui-guide {
+	
+}
+.ui-guide-item {
+	FONT-SIZE: 12px; FONT-FAMILY: "Microsoft YaHei"; BACKGROUND: url(../images/footer-line.jpg) no-repeat right top; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 25px; LINE-HEIGHT: 22px; PADDING-RIGHT: 25px
+}
+.ui-guide-item DT {
+	FONT-WEIGHT: 700
+}
+.ui-guide-item DT IMG {
+	MARGIN: 20px 5px; DISPLAY: block
+}
+.ui-guide-item DT IMG.img-1 {
+	MARGIN-LEFT: 25px
+}
+.ui-guide-item DD A {
+	COLOR: #333
+}
+.ui-guide-item DT A:hover {
+	COLOR: #f10
+}
+.ui-guide-item DD A:hover {
+	COLOR: #f10
+}
+.copyright {
+	RIGHT: 0px; POSITION: absolute; COLOR: #939191; TEXT-ALIGN: right; TOP: 0px
+}
+.copyright IMG {
+	HEIGHT: 44px; WIDTH: 180px; MARGIN: 17px 0px 5px
+}
+.copyright P {
+	LINE-HEIGHT: 20px
+}
+.copyright P.company-name {
+	MARGIN: 3px 0px
+}
+.footer-contact {
+	BACKGROUND: url(../images/footer-line.jpg) no-repeat right top; COLOR: #666; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 30px; PADDING-RIGHT: 30px
+}
+.footer-contact TABLE {
+	MARGIN: 22px 0px 0px
+}
+.footer-contact TABLE SPAN {
+	FONT-SIZE: 20px; FONT-FAMILY: Verdana, Geneva, sans-serif; COLOR: #333
+}
+.footer-contact TABLE STRONG {
+	FONT-SIZE: 12px; FONT-WEIGHT: normal
+}
+.footer-contact TABLE SPAN B {
+	FONT-SIZE: 12px; FONT-FAMILY: Î¢ÈíÑÅºÚ; COLOR: #666
+}
+.footer-contact TABLE A {
+	COLOR: #666; PADDING-LEFT: 25px; MARGIN: 0px 0px 5px; DISPLAY: block
+}
+.footer-contact TABLE A:hover {
+	COLOR: #f10
+}
+.footer-contact TABLE A.icon_khly {
+	BACKGROUND-POSITION: -109px -37px
+}
+.footer-contact TABLE A.icon_gfwb {
+	BACKGROUND-POSITION: -204px -37px
+}
+.footer-contact TABLE A.icon_gfqq {
+	BACKGROUND-POSITION: -300px -37px
+}
+.footer-contact TABLE B.icon_ewm {
+	HEIGHT: 87px; WIDTH: 87px; BACKGROUND: url(../images/header.png) no-repeat -715px -140px; MARGIN: 5px 0px 0px; DISPLAY: block
+}
+.mod-step {
+	
+}
+.reg_step {
+	WIDTH: 655px; PADDING-BOTTOM: 0px; PADDING-TOP: 75px; PADDING-LEFT: 0px; MARGIN: 0px auto; PADDING-RIGHT: 0px
+}
+.reg_step TABLE {
+	
+}
+.reg_step TABLE TD {
+	BACKGROUND: url(../images/reg_03.png) repeat-x left center
+}
+.reg_step TABLE TD.mod-bule-line {
+	BACKGROUND: url(../images/reg_04.png) repeat-x left center
+}
+.step-top {
+	WIDTH: 780px; MARGIN: 0px auto
+}
+.step-top TH {
+	TEXT-ALIGN: center
+}
+.step-top TD {
+	FONT-SIZE: 16px; COLOR: #0068b7; LINE-HEIGHT: 30px
+}
+.step-top TD.text-gray {
+	COLOR: #666
+}
+.reg_step_topno {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.step-text {
+	OVERFLOW: hidden; FONT-SIZE: 16px; FONT-FAMILY: "Microsoft YaHei"; BACKGROUND: #f3f3f3; COLOR: #666; LINE-HEIGHT: 50px
+}
+.step-text I {
+	HEIGHT: 50px; WIDTH: 49px; FLOAT: left; MARGIN: 0px 10px 0px 0px; DISPLAY: block
+}
+.step-text I.step-icon-user {
+	BACKGROUND-POSITION: 0px -112px
+}
+.step-text I.step-icon-user1 {
+	BACKGROUND-POSITION: 0px -171px
+}
+.step-text I.step-icon-pwd {
+	BACKGROUND-POSITION: -78px -112px
+}
+.step-text I.step-icon-pwd1 {
+	BACKGROUND-POSITION: -78px -171px
+}
+.step-text I.step-icon-suc {
+	BACKGROUND-POSITION: -156px -112px
+}
+.step-text I.step-icon-suc1 {
+	BACKGROUND-POSITION: -156px -171px
+}
+.reg-title {
+	FONT-SIZE: 26px; FONT-FAMILY: "Microsoft YaHei"; COLOR: #ef8700; FONT-STYLE: italic; MARGIN: 35px 0px
+}
+.reg-title SPAN {
+	FONT-SIZE: 32px
+}
+.bg-white {
+	BACKGROUND: #fff
+}
+.ui-reg-tab {
+	OVERFLOW: hidden
+}
+.ui-reg-tab UL LI {
+	FONT-SIZE: 24px; FONT-FAMILY: "Microsoft YaHei"; FLOAT: left; LINE-HEIGHT: 75px; TEXT-INDENT: 195px
+}
+.ui-reg-tab UL LI A {
+	HEIGHT: 81px; WIDTH: 490px; COLOR: #999
+}
+.ui-reg-tab UL LI A.ui-reg-phone {
+	BACKGROUND: url(../images/reg_17.png) no-repeat; DISPLAY: block
+}
+.ui-reg-tab UL LI A.ui-reg-phone:hover {
+	BACKGROUND: url(../images/reg_07.png) no-repeat; COLOR: #fff
+}
+.ui-reg-tab UL LI.current A.ui-reg-phone {
+	BACKGROUND: url(../images/reg_07.png) no-repeat; COLOR: #fff
+}
+.ui-reg-tab UL LI A.ui-reg-mail {
+	BACKGROUND: url(../images/reg_08.png) no-repeat; DISPLAY: block
+}
+.ui-reg-tab UL LI A.ui-reg-mail:hover {
+	BACKGROUND: url(../images/reg_18.png) no-repeat; COLOR: #fff
+}
+.ui-reg-tab UL LI.current A.ui-reg-mail {
+	BACKGROUND: url(../images/reg_18.png) no-repeat; COLOR: #fff
+}
+.labelContent {
+	DISPLAY: none
+}
+.dis-b {
+	DISPLAY: block
+}
+.reg-bg1 {
+	OVERFLOW: hidden; BACKGROUND: url(../images/reg_13.png) no-repeat right 100px
+}
+.reg-bg2 {
+	OVERFLOW: hidden; BACKGROUND: url(../images/reg_15.png) no-repeat right 130px
+}
+.reg-bg3 {
+	BORDER-TOP: #eaeaea 1px solid; BORDER-RIGHT: #eaeaea 1px solid; BORDER-BOTTOM: #eaeaea 1px solid; MARGIN: 50px auto; BORDER-LEFT: #eaeaea 1px solid
+}
+.reg-box {
+	FONT-SIZE: 16px; FONT-FAMILY: "Microsoft YaHei"; COLOR: #666; MARGIN: 40px 0px 100px 70px
+}
+.reg-box INPUT.lg-input-normal {
+	FONT-SIZE: 16px; BORDER-TOP: #ccc 1px solid; HEIGHT: 40px; FONT-FAMILY: "Microsoft YaHei"; BORDER-RIGHT: #ccc 1px solid; BORDER-BOTTOM: #ccc 1px solid; COLOR: #999; BORDER-LEFT: #ccc 1px solid; LINE-HEIGHT: 40px; TEXT-INDENT: 10px
+}
+.reg-box INPUT.w-250 {
+	WIDTH: 250px
+}
+.reg-box INPUT.w-150 {
+	WIDTH: 150px
+}
+.reg-box INPUT.w-300 {
+	WIDTH: 300px
+}
+.reg-box INPUT.ui-button-text {
+	BORDER-TOP-STYLE: none; FONT-SIZE: 18px; HEIGHT: 43px; FONT-FAMILY: "Microsoft YaHei"; WIDTH: 147px; BORDER-BOTTOM-STYLE: none; BACKGROUND-POSITION: 0px -217px; COLOR: #fff; BORDER-RIGHT-STYLE: none; MARGIN: 20px 0px 0px 120px; BORDER-LEFT-STYLE: none
+}
+.reg-box INPUT.ui-button-text:hover {
+	CURSOR: pointer; BACKGROUND-POSITION: 0px -260px
+}
+.m-lorange P {
+	FONT-SIZE: 14px; FONT-FAMILY: "simsun"; MARGIN: 20px 0px 0px 120px
+}
+.reg-box .link-login {
+	FONT-SIZE: 14px; FONT-FAMILY: "ËÎÌå"; COLOR: #666; MARGIN: 30px 0px 0px 10px
+}
+.reg-box INPUT.ui-code-get {
+	BACKGROUND-POSITION: -156px 0px; COLOR: #c67e4a
+}
+.reg-box INPUT.ui-code-sent {
+	BACKGROUND-POSITION: -156px -32px; COLOR: #747474
+}
+.reg-box INPUT.ui-code-but {
+	BORDER-TOP-STYLE: none; CURSOR: pointer; FONT-SIZE: 12px; HEIGHT: 27px; WIDTH: 118px; BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; MARGIN: 0px 0px 0px 10px; BORDER-LEFT-STYLE: none
+}
+.reg-form {
+	OVERFLOW: hidden; MARGIN: 10px 0px 20px; LINE-HEIGHT: 42px
+}
+.reg-error {
+	FONT-SIZE: 16px; COLOR: #e80000
+}
+.reg-error B.icon-error {
+	HEIGHT: 40px; WIDTH: 25px; BACKGROUND-POSITION: -775px 11px; FLOAT: left; MARGIN: 0px 10px; DISPLAY: block
+}
+.reg-captcha {
+	FLOAT: left; MARGIN: 10px 10px 0px 15px
+}
+.ui-form-setpwd {
+	MARGIN: 40px 0px 80px 70px
+}
+.tips-correct {
+	HEIGHT: 21px; WIDTH: 21px; BACKGROUND-POSITION: -779px -51px; FLOAT: left; MARGIN: 5px 0px 0px 13px; DISPLAY: none
+}
+.m-lorange {
+	MARGIN-LEFT: 12px
+}
+.mail-box {
+	BORDER-TOP: #eaeaea 1px solid; BORDER-RIGHT: #eaeaea 1px solid; BACKGROUND: url(../images/reg_19.png) #fff no-repeat 110px 90px; BORDER-BOTTOM: #eaeaea 1px solid; MARGIN: 50px 0px; BORDER-LEFT: #eaeaea 1px solid; border-radius: 5px 5px 0 0
+}
+.mail-title {
+	FONT-SIZE: 18px; HEIGHT: 42px; FONT-FAMILY: "Microsoft YaHei"; BACKGROUND: #3571ba; COLOR: #fff; LINE-HEIGHT: 42px; TEXT-INDENT: 22px; border-radius: 5px 5px 0 0
+}
+.fb-text {
+	FONT-FAMILY: "Microsoft YaHei"; BORDER-BOTTOM: #ccc 1px dashed; COLOR: #666; PADDING-BOTTOM: 15px; MARGIN: 50px 150px 20px 200px; LINE-HEIGHT: 34px
+}
+.fb-text P.title {
+	FONT-SIZE: 18px
+}
+.fb-text P SPAN {
+	FONT-SIZE: 14px; FONT-WEIGHT: 700; COLOR: #ff6600; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 15px
+}
+.fb-text P INPUT.fb-check {
+	BORDER-TOP-STYLE: none; HEIGHT: 23px; FONT-FAMILY: "Microsoft YaHei"; BACKGROUND: #f08800; BORDER-BOTTOM-STYLE: none; COLOR: #fff; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; PADDING-LEFT: 15px; BORDER-LEFT-STYLE: none; LINE-HEIGHT: 23px; PADDING-RIGHT: 15px; border-radius: 3px
+}
+.fb-text P INPUT.fb-check:hover {
+	CURSOR: pointer; BACKGROUND: #e07f00
+}
+.ui-mail-text {
+	FONT-SIZE: 14px; MARGIN: 0px 0px 50px 200px
+}
+.ui-mail-text-ask {
+	COLOR: #3571ba
+}
+.ui-mail-text UL {
+	WIDTH: 400px; BACKGROUND: #f4f4f4; COLOR: #999; PADDING-BOTTOM: 20px; PADDING-TOP: 20px; PADDING-LEFT: 20px; MARGIN: 10px 0px 0px; LINE-HEIGHT: 28px; PADDING-RIGHT: 20px
+}
+.ui-mail-text UL LI INPUT {
+	BORDER-TOP-STYLE: none; HEIGHT: 23px; FONT-FAMILY: "Microsoft YaHei"; BACKGROUND: #95bded; BORDER-BOTTOM-STYLE: none; COLOR: #fff; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; PADDING-LEFT: 15px; MARGIN: 0px 0px 0px 10px; BORDER-LEFT-STYLE: none; LINE-HEIGHT: 23px; PADDING-RIGHT: 15px; border-radius: 3px
+}
+.ui-mail-text UL LI INPUT:hover {
+	CURSOR: pointer; BACKGROUND: #6ea2e0
+}
+.white-box {
+	BORDER-TOP: #eaeaea 1px solid; BORDER-RIGHT: #eaeaea 1px solid; BACKGROUND: #fff; BORDER-BOTTOM: #eaeaea 1px solid; MARGIN: 50px 0px 0px; BORDER-LEFT: #eaeaea 1px solid
+}
+.complete-ts {
+	MARGIN: 30px 0px
+}
+.complete-ts P IMG {
+	VERTICAL-ALIGN: middle; MARGIN: 0px 10px 0px 0px
+}
+.complete-ts P {
+	FONT-SIZE: 24px; FONT-FAMILY: "Microsoft YaHei"; COLOR: #3571ba; TEXT-ALIGN: center; LINE-HEIGHT: 38px
+}
+.complete-name {
+	OVERFLOW: hidden; BORDER-BOTTOM: #ccc 1px dashed; PADDING-BOTTOM: 30px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px 75px; PADDING-RIGHT: 0px
+}
+.portrait-ts {
+	WIDTH: 160px; BACKGROUND: url(../images/reg_21.png) no-repeat center bottom; POSITION: relative; MIN-HEIGHT: 250px
+}
+.portrait-ts SPAN {
+	FONT-SIZE: 16px; BORDER-TOP: #ffdeb5 3px solid; HEIGHT: 40px; BORDER-RIGHT: #ffdeb5 3px solid; WIDTH: 750px; BACKGROUND: #fef6ec; BORDER-BOTTOM: #ffdeb5 3px solid; POSITION: absolute; COLOR: #ff9000; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 10px; LEFT: 10px; BORDER-LEFT: #ffdeb5 3px solid; LINE-HEIGHT: 40px; TOP: 0px; PADDING-RIGHT: 10px; border-radius: 5px
+}
+.portrait-ts B {
+	HEIGHT: 22px; WIDTH: 31px; BACKGROUND: url(../images/aoorw-bottom.png) no-repeat; POSITION: absolute; LEFT: 100px; TOP: 43px
+}
+.ui-form-name {
+	FONT-SIZE: 18px; COLOR: #666; MARGIN: 80px 0px 0px 30px
+}
+.ui-form-name P {
+	FONT-SIZE: 12px; FONT-FAMILY: "ËÎÌå"; COLOR: #999; MARGIN: 10px 0px 0px 95px; LINE-HEIGHT: 24px
+}
+.ui-form-name P B {
+	FONT-WEIGHT: 400; COLOR: #f78d8d
+}
+.ui-form-name INPUT.lg-input-normal {
+	FONT-SIZE: 18px; BORDER-TOP: #cdcdcd 1px solid; HEIGHT: 37px; FONT-FAMILY: "Microsoft YaHei"; BORDER-RIGHT: #cdcdcd 1px solid; BORDER-BOTTOM: #cdcdcd 1px solid; COLOR: #ccc; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 10px; BORDER-LEFT: #cdcdcd 1px solid; LINE-HEIGHT: 37px; PADDING-RIGHT: 10px
+}
+.ui-form-name INPUT.ui-button-text {
+	BORDER-TOP-STYLE: none; FONT-SIZE: 18px; HEIGHT: 49px; FONT-FAMILY: "Microsoft YaHei"; WIDTH: 177px; BORDER-BOTTOM-STYLE: none; BACKGROUND-POSITION: 0px -333px; COLOR: #fff; BORDER-RIGHT-STYLE: none; MARGIN: 45px 0px 0px 95px; BORDER-LEFT-STYLE: none
+}
+.ui-form-name INPUT.ui-button-text:hover {
+	CURSOR: pointer; BACKGROUND-POSITION: 0px -382px
+}
+.ui-form-name-ts {
+	FONT-SIZE: 12px; FONT-FAMILY: "ËÎÌå"; COLOR: #999; MARGIN: 48px 0px 0px 20px; LINE-HEIGHT: 24px
+}
+.ui-form-name-ts A {
+	FONT-SIZE: 14px; DISPLAY: block
+}
+.module-box {
+	OVERFLOW: hidden; MARGIN: 25px 0px 25px 125px
+}
+.module-box UL LI.cell-item {
+	OVERFLOW: hidden; BORDER-RIGHT: #e3e3e3 1px solid; FLOAT: left; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px 20px 0px 0px; PADDING-RIGHT: 20px
+}
+.module-box UL LI.cell-item IMG {
+	FLOAT: left; MARGIN: 0px 15px 0px 0px
+}
+.module-box UL LI.cell-item H3 {
+	
+}
+.module-box UL LI.cell-item P {
+	FONT-FAMILY: "Microsoft YaHei"; WIDTH: 100px; FLOAT: left; COLOR: #666; LINE-HEIGHT: 22px
+}
+.module-box UL LI.cell-item P A.cell-item-title {
+	FONT-SIZE: 18px; COLOR: #e74149; MARGIN: 15px 0px 10px; DISPLAY: block
+}
+.zxpd {
+	OVERFLOW: hidden; HEIGHT: auto; WIDTH: 1086px; MARGIN: auto
+}
+.pay-pop {
+	BACKGROUND: #fff; TEXT-ALIGN: center
+}
+.pay-pop-bun {
+	BACKGROUND: #fff; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 222px; PADDING-RIGHT: 0px
+}
+.pay-pop-bun INPUT[type='checkbox'] {
+	MARGIN: 5px 10px 0px 0px
+}
+.pay-pop-bun INPUT[type='button'] {
+	BORDER-TOP-STYLE: none; CURSOR: pointer; HEIGHT: 55px; WIDTH: 223px; BACKGROUND: url(../images/btn_4.png) no-repeat; BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; MARGIN: 10px 0px 30px; BORDER-LEFT-STYLE: none
+}
+.build {
+	BACKGROUND: url(../images/about_img.gif) no-repeat center center; TEXT-ALIGN: center; MIN-HEIGHT: 600px
+}

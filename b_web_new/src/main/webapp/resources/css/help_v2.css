@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	font-family:"微软雅黑";
+	}
+a{
+	text-decoration:none;
+	cursor:pointer;
+	}
+img{
+	display:block;
+	}
+.helpbanner img{
+	width:100%;
+	margin:0 auto;
+	}
+.helpmain{
+	width:100%;
+	margin:0 auto;
+	height:auto;
+	background:url(../images/banner_inner.jpg) repeat-y;
+	padding-top:32px;
+	}
+.helpmain .hp_main{
+	width:1016px;
+	height:auto;
+	margin:0 auto;
+	overflow:hidden;
+	}	
+.helpmain .hp_main .hpl{
+	float:left;
+	width:203px;
+	height:auto;
+	}
+.helpmain .hp_main .hpl h3{
+	display:block;
+	width:130px;
+	height:50px;
+	text-align:left;
+	padding-left:72px;
+	line-height:50px;
+	font-size:18px;
+	color:#000;
+	font-weight:normal;
+	border-bottom:1px solid #dfdfdf;
+	}
+.helpmain .hp_main .hpl h3.abouticon{
+	background:url(../images/abouticon.png) 40px 15px no-repeat;
+	background-color:#fff;
+	}
+.helpmain .hp_main .hpl h3.newicon{
+	background:url(../images/newicon.png) 40px 15px no-repeat;
+	background-color:#fff;
+	}
+.helpmain .hp_main .hpl h3.wenicon{
+	background:url(../images/wen.png) 40px 15px no-repeat;
+	background-color:#fff;
+	}
+.helpmain .hp_main .hpl ul{
+	display:block;
+	margin-bottom:10px;
+	background-color:#fff;
+	}
+.helpmain .hp_main .hpl ul li{
+	display:block;
+	width:130px;
+	height:50px;
+	text-align:left;
+	padding-left:72px;
+	line-height:50px;
+	border-bottom:1px solid #dfdfdf;
+	}
+.helpmain .hp_main .hpl ul li.current{
+	background-color:#eaeaea;
+	border-left:1px solid #e60012;
+	}
+.helpmain .hp_main .hpl ul li.current a{
+	color:#e60012;
+	}
+.helpmain .hp_main .hpl ul li:hover{
+	background-color:#eaeaea;
+	border-left:1px solid #e60012;
+	}
+.helpmain .hp_main .hpl ul li:hover a{
+	color:#e60012;
+	}
+.helpmain .hp_main .hpl ul li a{
+	display:block;
+	font-size:14px;
+	color:#333;
+	}
+.helpmain .hp_main .hpr{
+	float:right;
+	width:800px;
+	height:auto;
+	background-color:#fff;
+	}
+

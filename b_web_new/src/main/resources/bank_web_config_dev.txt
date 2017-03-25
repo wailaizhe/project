@@ -1,0 +1,16 @@
+jdbcUrl=jdbc:mysql://localhost:3306/jc_investor?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull
+user=root
+password=root
+devMode=true
+# jdbcUrl=jdbc:mysql://55ac5ed833772.sh.cdb.myqcloud.com:3717/jc_new?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull
+# user=cdb_outerroot
+# password=cx900228
+# cron4j 任务调度配置  ------------------------------------------
+# pvUpdate 每小时更新一次 project_page_view、share_page_view、feedback_page_view
+cron4j=pvUpdate
+pvUpdate.cron=0 * * * *
+pvUpdate.class=com.jfinal.club.common.pageview.PageViewUpdateTask
+pvUpdate.enable=true
+
+
+
